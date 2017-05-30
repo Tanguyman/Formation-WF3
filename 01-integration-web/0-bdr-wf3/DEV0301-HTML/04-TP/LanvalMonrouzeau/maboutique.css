@@ -1,0 +1,364 @@
+/**Structure de base**/
+
+img {
+	max-width: 100%;
+}
+
+.clear{
+	clear: both;
+}
+
+/**Header**/
+
+header{
+	height: 100px;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+#logo{
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+
+#telephone{
+	float: left;
+	width: 30%;
+	height: 100%;
+}
+
+#panier{
+	float: left;
+	background-color: skyblue;
+	width: 20%;
+	height: 100%;
+}
+
+/**Logo**/
+
+#maboutique{
+	float: left;
+}
+
+#maboutique img{
+	display: inline-block;
+	float: left;
+	margin-right: 20px;
+}
+
+#maboutique h1{
+	display: inline-block;
+	color: black;
+	font-family: arial;
+	font-style: italic;
+	font-size: 45px;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+#maboutique h2{
+	display: inline-block;
+	color: deeppink;
+	font-family: arial;
+	font-style: italic;
+	font-size: 16px;
+	margin: 0 auto;
+	padding: 0 auto;
+	margin-left: 20px;
+}
+
+/**Besoin d'aide**/
+
+#aide h2{
+	color: skyblue;
+	font-family: verdana;
+	font-size: 25px;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+#aide h3{
+	color: grey;
+	font-family: verdana;
+	font-style: italic;
+	font-size: 12px;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+/**Mon compte**/
+
+#moncompte img{
+	display: inline-block;
+	float: left;
+	padding: 5px;
+}
+
+#moncompte h2{
+	color: white;
+	font-family: verdana;
+	font-size: 12px;
+	margin: 0 auto;
+	padding: 0 auto;
+	text-align: center;
+	margin-top: 5px;
+}
+
+#moncompte h3{
+	color: white;
+	font-family: verdana;
+	font-size: 12px;
+	margin: 0 auto;
+	padding: 0 auto;
+	text-align: center;
+	margin-top: 25px;
+}
+
+/**Nav**/
+
+/**Structure de la navbar**/
+
+nav{
+	height: 40px;
+	background-color: skyblue;
+	margin: 5px auto 0 auto;
+	padding: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+li {
+    display: inline;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+li a {
+	line-height: 40px;
+    text-align: center;
+	font-family: arial;
+    text-decoration: none;
+	margin: 10px 10px;
+	padding: 10px 40px;
+	color: white; 
+}
+
+li a:hover{
+	background-color: deeppink;
+}
+
+/**Section 1**/
+
+#bandeau{
+    width: 100%;
+    height: auto;
+}
+
+/*Section 2*/
+
+#info{
+	height: 100px;
+	margin-top: 15px;
+}
+
+#paiement{
+	float: left;
+	width: 25%;
+}
+
+#quisommesnous{
+	float: left;
+	width: 50%;
+}
+
+#services{
+	float: left;
+	width: 25%;
+}
+
+#paiement h2{
+	color: skyblue;
+	font-family: verdana;
+	font-size: 16px;
+	margin: 0 auto;
+	padding: 0 auto;
+	text-align: center;
+}
+
+#paiement h3{
+	font-family: verdana;
+	font-size: 12px;
+	text-align: center;
+}
+
+#paiement img{
+	margin: 0 auto;
+	padding: 0 100px;
+}
+
+#quisommesnous h2{
+	color: skyblue;
+	font-family: verdana;
+	font-size: 16px;
+	margin: 0 auto;
+	padding: 0 auto;
+	text-align: center;
+}
+
+#quisommesnous h3{
+	font-family: verdana;
+	font-size: 12px;
+	margin: 15px auto;
+	padding: 0 auto;
+}
+
+#services h2{
+	float: left;
+	color: skyblue;
+	font-family: verdana;
+	font-size: 16px;
+	margin: 0 auto;
+	padding: 0 auto;
+	text-align: center;
+}
+
+#services h3{
+	float: left;
+	font-family: verdana;
+	font-size: 12px;
+	margin: 15px auto;
+	padding: 0 auto;
+}
+
+#services img{
+	float: left;
+	padding: 0 auto;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.petitconteneur{
+	max-width: 400px;
+	height: 100px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+.moyenconteneur{
+	max-width: 800px;
+	height: 100px;
+	margin: 0 auto;
+	padding: 15px;
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+}
+
+/**Section 3**/
+
+#produitsavendre{
+	height: 300px;
+}
+
+#boite1{
+	height: 160px;
+	width: 20%;
+	border: 1px solid black;
+	border-radius: 25px;
+	float: left;
+	overflow: hidden;
+	margin: 50px 100px;
+	float: left;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+#boite1 h2{
+	background: lightgrey;
+	font-style: bold;
+	font-family: verdana;
+	font-size: 16px;
+	margin: 0 auto;	
+	text-align: center;
+}
+
+#boite1 img{
+	float: left;
+	padding: 20px;
+}
+
+#boite1 a{
+	float: right;
+	padding: 0 15px;
+}
+
+#boite2{
+	height: 160px;
+	width: 20%;
+	border: 1px solid black;
+	border-radius: 25px;
+	float: left;
+	overflow: hidden;
+	margin: 50px 100px;
+	float: left;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+#boite2 img{
+	float: left;
+	padding: 20px;
+}
+
+#boite2 h2{
+	background: lightgrey;
+	font-style: bold;
+	font-family: verdana;
+	font-size: 16px;
+	margin: 0 auto;	
+	text-align: center;
+}
+
+#boite3{
+	height: 160px;
+	width: 20%;
+	border: 1px solid black;
+	border-radius: 25px;
+	float: left;
+	overflow: hidden;
+	margin: 50px 100px;
+	float: left;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+#boite3 h2{
+	background: lightgrey;
+	font-style: bold;
+	font-family: verdana;
+	font-size: 16px;
+	margin: 0 auto;	
+	text-align: center;
+}
+
+#boite3 img{
+	float: left;
+	padding: 20px;
+}
+
+/**Footer**/
+
+footer{
+	height: 25px;
+	background-color: skyblue;
+	color: white; 
+}
+
+footer h3{
+	text-align: center; 
+	font-family: verdana;
+	font-size: 12px;
+	line-height: 25px;
+	text-align: center;
+}

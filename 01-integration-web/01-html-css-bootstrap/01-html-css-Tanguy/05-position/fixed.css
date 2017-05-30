@@ -1,0 +1,15 @@
+#contenu{
+	border: 2px solid blue;
+	padding: 20px;
+	margin: 30px 0 0 0;
+}
+
+nav{
+	background-color: black;
+	color: white;
+	text-align: center;
+	position: fixed; /*père fenetre du navigateur = univers parallele*/
+	left: 0;
+	top: 0;
+	width: 100%;
+}

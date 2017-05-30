@@ -1,0 +1,17 @@
+DEBUG HTML
+validator.w3.org
+
+DEBUG CSS
+jigsaw.w3.org/css-validator/
+
+EXO + TRACKER
+w3schools.com/Browsers/default.asp
+exercices
+statistique des browsers utilisés
+
+TRACKER
+gs.statcounter.com
+statistique des browsers utilisés
+
+SECURITE
+howsecureismypassword.net

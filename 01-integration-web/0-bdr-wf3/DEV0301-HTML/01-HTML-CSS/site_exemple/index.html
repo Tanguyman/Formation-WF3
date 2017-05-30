@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Mon site</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<header>
+			<div class="conteneur">
+				<div class="bloc100">
+					<h1>Tableaux</h1>
+				</div>
+			</div>
+		</header>
+		<section>
+			<div class="conteneur">
+				<div class="bloc100">
+					<h2>Tableau simple</h2>
+					<table>
+						<tr>
+							<td>1960</td>
+							<td>Spartacus</td>
+							<td>Stanley Kubrick</td>
+							<td>Kirk Douglas Laurence Olivier Peter Ustinov</td>
+						</tr>
+						<tr>
+							<td>1975</td>
+							<td>Barry Lyndon</td>
+							<td>Stanley Kubrick</td>
+							<td>Ryan O'Neal Marisa Berenson Leon Vitali</td>
+						</tr>
+						<tr>
+							<td>1980</td>
+							<td>Shining</td>
+							<td>Stanley Kubrick</td>
+							<td>Jack Nicholson Shelley Duvall Danny Lloyd</td>
+						</tr>
+					</table>
+				</div>
+				<div class="bloc100">
+					<h2>Tableau avec entête</h2>
+					<table>
+						<tr>
+							<th>Année</th>
+							<th>Titre</th>
+							<th>Réalisateur</th>
+							<th>Acteurs</th>
+						</tr>
+						<tr>
+							<td>1960</td>
+							<td>Spartacus</td>
+							<td>Stanley Kubrick</td>
+							<td>Kirk Douglas Laurence Olivier Peter Ustinov</td>
+						</tr>
+						<tr>
+							<td>1975</td>
+							<td>Barry Lyndon</td>
+							<td>Stanley Kubrick</td>
+							<td>Ryan O'Neal Marisa Berenson Leon Vitali</td>
+						</tr>
+						<tr>
+							<td>1980</td>
+							<td>Shining</td>
+							<td>Stanley Kubrick</td>
+							<td>Jack Nicholson Shelley Duvall Danny Lloyd</td>
+						</tr>
+					</table>
+				</div>
+				<div class="bloc50">
+					<h2>Tableau avec colspan</h2>
+					<table>
+						<tr>
+							<th colspan="2">Stanley Kubrick</th>
+						</tr>
+						<tr>
+							<td>1960</td>
+							<td>Spartacus</td>
+						</tr>
+						<tr>
+							<td>1975</td>
+							<td>Barry Lyndon</td>
+						</tr>
+						<tr>
+							<td>1980</td>
+							<td>Shining</td>
+						</tr>
+					</table>
+				</div>
+				<div class="bloc50">
+					<h2>Tableau avec rowspan</h2>
+					<table>
+						<tr>
+							<th>Titre</th>
+							<td>Spartacus</td>
+							<td>Barry Lyndon</td>
+							<td>Shining</td>
+						</tr>
+						<tr>
+							<th rowspan="3">Acteurs</th>
+							<td>Acteurs1</td>
+							<td>Acteurs1</td>
+							<td>Acteurs1</td>
+						</tr>
+						<tr>
+							<td>Acteurs2</td>
+							<td>Acteurs2</td>
+							<td>Acteurs2</td>
+						</tr>
+						<tr>
+							<td>Acteurs3</td>
+							<td>Acteurs3</td>
+							<td>Acteurs3</td>
+						</tr>
+					</table>
+				</div>
+				<div class="clear"></div>
+				<div class="bloc100">
+					<h2>Tableau avec Thead et Tfoot</h2>
+					<table>
+						<caption class="captionbig" align="top">Les films de Stanley Kubrick</caption>
+						<thead>
+							<tr>
+								<th>Année</th>
+								<th>Titre</th>
+								<th colspan="3">Acteurs</th>
+							</tr>
+						</thead>
+						<tfoot>
+							<tr>
+								<th>Année</th>
+								<th>Titre</th>
+								<th colspan="3">Acteurs</th>
+							</tr>
+						</tfoot>
+						<tbody>
+							<tr>
+								<td>1960</td>
+								<td>Spartacus</td>
+								<td>Acteur1</td>
+								<td>Acteur2</td>
+								<td>Acteur3</td>
+							</tr>
+							<tr>
+								<td>1975</td>
+								<td>Barry Lyndon</td>
+								<td>Acteur1</td>
+								<td>Acteur2</td>
+								<td>Acteur3</td>
+							</tr>
+							<tr>
+								<td>1980</td>
+								<td>Shining</td>
+								<td>Acteur1</td>
+								<td>Acteur2</td>
+								<td>Acteur3</td>
+							</tr>
+							<tr>
+								<td>1960</td>
+								<td>Spartacus</td>
+								<td>Acteur1</td>
+								<td>Acteur2</td>
+								<td>Acteur3</td>
+							</tr>
+							<tr>
+								<td>1975</td>
+								<td>Barry Lyndon</td>
+								<td>Acteur1</td>
+								<td>Acteur2</td>
+								<td>Acteur3</td>
+							</tr>
+							<tr>
+								<td>1980</td>
+								<td>Shining</td>
+								<td>Acteur1</td>
+								<td>Acteur2</td>
+								<td>Acteur3</td>
+							</tr>
+							<tr>
+								<td>1960</td>
+								<td>Spartacus</td>
+								<td>Acteur1</td>
+								<td>Acteur2</td>
+								<td>Acteur3</td>
+							</tr>
+							<tr>
+								<td>1975</td>
+								<td>Barry Lyndon</td>
+								<td>Acteur1</td>
+								<td>Acteur2</td>
+								<td>Acteur3</td>
+							</tr>
+							<tr>
+								<td>1980</td>
+								<td>Shining</td>
+								<td>Acteur1</td>
+								<td>Acteur2</td>
+								<td>Acteur3</td>
+							</tr>
+							<tr>
+								<td>1960</td>
+								<td>Spartacus</td>
+								<td>Acteur1</td>
+								<td>Acteur2</td>
+								<td>Acteur3</td>
+							</tr>
+							<tr>
+								<td>1975</td>
+								<td>Barry Lyndon</td>
+								<td>Acteur1</td>
+								<td>Acteur2</td>
+								<td>Acteur3</td>
+							</tr>
+							<tr>
+								<td>1980</td>
+								<td>Shining</td>
+								<td>Acteur1</td>
+								<td>Acteur2</td>
+								<td>Acteur3</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="conteneur">
+				<div class="bloc100">3</div>
+			</div>
+		</footer>
+	</body>
+</html>
+
+
+

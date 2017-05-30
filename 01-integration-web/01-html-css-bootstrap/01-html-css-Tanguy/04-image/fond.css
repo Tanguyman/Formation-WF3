@@ -1,0 +1,52 @@
+body{
+	
+	/*background: #000 url("img/fond1.jpg") top left / 100% no-repeat;
+	backround: taille / position  =*/
+
+	
+	background: #000 url("img/fond1.jpg") top center no-repeat;
+	/* background-size: cover; ou cover */
+	background-attachment: fixed;
+}
+/*
+	background-color: ;
+	background-image: ; => .jpg, .jpeg, .gif,  .png
+	background-position: ; => unité de longueur (100px 5px) ou % (100% 5%) ou mots clés (top, right, left, bottom)
+	background-size: tailles fixes, des %, cover, contain
+	background-repeat: no repeat, repeat-x, repeat-y
+	background-attachment:; scroll par défaut ou fixed
+	repeat pour l'effet papier-peint
+
+*/
+
+.contenu{
+
+/* http://www.cssmatic.com/ */
+-webkit-box-shadow: 10px 10px 19px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 19px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 19px 0px rgba(0,0,0,0.75);
+
+	width: 800px;
+	height: 500px;
+	/* background-color: rgba(255,255,255,0.3); */
+	margin: 200px auto 0;
+	opacity: 1;
+
+/* http://www.cssmatic.com/ */
+background: rgba(231,56,39,1);
+background: -moz-linear-gradient(45deg, rgba(231,56,39,1) 0%, rgba(246,41,12,0.8) 20%, rgba(240,47,23,0.7) 30%, rgba(241,111,92,0.41) 58%, rgba(243,102,80,0.29) 70%, rgba(248,80,50,0.29) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(231,56,39,1)), color-stop(20%, rgba(246,41,12,0.8)), color-stop(30%, rgba(240,47,23,0.7)), color-stop(58%, rgba(241,111,92,0.41)), color-stop(70%, rgba(243,102,80,0.29)), color-stop(100%, rgba(248,80,50,0.29)));
+background: -webkit-linear-gradient(45deg, rgba(231,56,39,1) 0%, rgba(246,41,12,0.8) 20%, rgba(240,47,23,0.7) 30%, rgba(241,111,92,0.41) 58%, rgba(243,102,80,0.29) 70%, rgba(248,80,50,0.29) 100%);
+background: -o-linear-gradient(45deg, rgba(231,56,39,1) 0%, rgba(246,41,12,0.8) 20%, rgba(240,47,23,0.7) 30%, rgba(241,111,92,0.41) 58%, rgba(243,102,80,0.29) 70%, rgba(248,80,50,0.29) 100%);
+background: -ms-linear-gradient(45deg, rgba(231,56,39,1) 0%, rgba(246,41,12,0.8) 20%, rgba(240,47,23,0.7) 30%, rgba(241,111,92,0.41) 58%, rgba(243,102,80,0.29) 70%, rgba(248,80,50,0.29) 100%);
+background: linear-gradient(45deg, rgba(231,56,39,1) 0%, rgba(246,41,12,0.8) 20%, rgba(240,47,23,0.7) 30%, rgba(241,111,92,0.41) 58%, rgba(243,102,80,0.29) 70%, rgba(248,80,50,0.29) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e73827', endColorstr='#f85032', GradientType=1 );
+
+
+}
+
+.contenu p{
+	text-align: center;
+	position: relative;
+	top: 50%;
+}

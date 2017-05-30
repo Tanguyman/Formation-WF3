@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>site-formulaire</title>
+		<link rel="stylesheet" type="text/css" href="styles/style.css">
+	</head>
+
+	<body>
+		<header>
+			<div class="containeur">
+				<div class="header">
+					<div class="logo">
+						<span>&lt;WebForce 3&gt;</span><br>
+						Exemple de mise en page
+						
+					</div>
+					<div class="navigateur">
+						<nav>
+							<div>
+								<a href="#">ACCUEIL</a>
+								<a href="#">PARCOURS</a>
+								<a href="#">RÉALISATIONS</a>
+								<a href="#">FORMATION</a>
+								<a href="#">CONTACT</a>
+							</div>
+						</nav>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>		
+		</header>
+		<section>
+			<div class="containeur form">
+				<div class="formulaire">
+					<h2>CONTACTEZ-MOI</h2>
+					<form method="post" action="traitement.php">
+					<!-- TRAITEMENT: action=>name -->
+						
+						<label for="idnom">Nom</label>
+						<!-- LABEL: for=>id-->
+						<input type="text" name="nom" id="idnom" required placeholder="Votre nom ici...">
+						
+						<label for="mail">Email</label>
+						<input type="mail" name="mail" id="mail" value="Votre email ici...">
+
+						<label for="texte">Objet</label>
+						<input type="text" name="objet" id="texte" value="Votre objet ici..." maxlength="30">
+
+						<label for="message">Message</label>
+						<textarea id="message" name="message">Votre message ici...</textarea>
+
+						<input type="submit" name="Envoyer">
+					</form>
+				</div>
+				<div class="carte">
+					<h2>COORDONNÉES</h2>
+					<pre>
+					<p>
+Adresse
+36 rue de blah blah blah
+Tel / Fax
+06 21 55 56 87 / 01 45 25 78 36
+					</p>
+					</pre>
+					<!-- <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=webforce3&key=AIzaSyCsl4gzF5PNppM9Onjb0lt-ZOBnvaBu9Vc" allowfullscreen></iframe> -->
+					<!-- <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.fr/maps/place/Webforce3,+18+Rue+Geoffroy+l'Asnier,+75004+Paris/@48.8544167,2.3562062,17z/data=!4m6!1m3!3m2!1s0x47e671fd10fa77a9:0xb2bbd365849898f2!2sWebforce3,+18+Rue+Geoffroy+l'Asnier,+75004+Paris!3m1!1s0x47e671fd10fa77a9:0xb2bbd365849898f2" allowfullscreen></iframe> -->
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.1546308772886!2d2.354912815674263!3d48.85526167928726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671fd68158147%3A0x2b235e3fbb1cf343!2s34+Rue+Geoffroy+l&#39;Asnier%2C+75004+Paris!5e0!3m2!1sfr!2sfr!4v1494513526362" width="460" height="440" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<p>
+				</div>
+				<div class="clear"></div>
+			</div>	
+		</section>
+		<footer>
+			<div class="containeur">
+				<span class="footerleft">Copyright c 2012 - All Rights Reserved - Domain Name</span>
+				<span class="footerright">Template by OS Templates</span>
+				<span class="clear"></span>
+			</div>
+		</footer>
+	</body>
+</html>

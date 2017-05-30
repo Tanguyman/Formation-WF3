@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Javascript</title>
+
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/formation.css">
+  
+    <!-- Réglage Boostrap Affix
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+    <style>
+        .affix {
+            top: 50px;
+            width: 100%;
+        }
+
+        .affix + .container {
+            padding-top: 70px;
+        }
+    </style>
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+    <!--========================== MENU - navbar role="navigation" ==================================-->        
+            <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index-wf3.html">Formation - WF3 (OCR)</a>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="index-wf3.html">Brouillon</a></li>
+                            <li class="active" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cours <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="01-integration-web/cours.html">Intégrateur Web</a></li>
+                                    <li><a href="02-javascript.html">Javascript</a></li>
+                                </ul>
+                            <li><a href="#contact">Contact</a></li>
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li class="dropdown-header">Nav header</li>
+                                    <li><a href="#">Separated link</a></li>
+                                    <li><a href="#">One more separated link</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </nav>
+            <!--PASSER LE CAROUSSEL EN 1ER POSITION DANS MOBILE-->
+            <!--<div class="container">            
+                <div class="row">
+                    <div class="col-sm-6 col-sm-push-6">
+                        Photo
+                    </div>
+                    <div class="col-sm-6 col-sm-pull-6">
+                        Texte
+                    </div>
+                </div>
+            </div>-->
+
+    <!--========================== PAGE - page-header  ==================================-->
+        <div class="page-header">
+            <div class="container">            
+            <!--============== Javascript Hugo vs Tanguy ========-->
+                <div class="row">
+                    <h3 class="col-xs-12">Javascript <small>Hugo vs Tanguy</small></h3>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <dl>
+                            <dd><a href="02-javascript/javascript-Tanguy" class="btn btn-info" role="button" target="_blank">Html Tanguy</a></dd>
+                            <dd> 00-test-js.html</dd>
+                            <dd> 01-Les-Variables.html</dd>
+                            <dd> 02-LesTableaux.html</dd>
+                            <dd> 03-La-Concatenation.html</dd>
+                            <dd> 04-Les-Operateurs-Arithmetiques.html</dd>
+                            <dd> 05-IncrementationEtDecrementation.html</dd>
+                            <dd> 06-LesFonctions.html</dd>
+                            <dd> 07-Exercice1.html</dd>
+                            <dd> 08-Les-Conditions.html</dd>
+                            <dd> 09-Les-Boucles.html</dd>
+                        </dl>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <dl>
+                            <dd><a href="02-javascript/javascript-Tanguy/assets/js/" class="btn btn-primary" role="button" target="_blank">JS Tanguy</a></dd>
+                            <dd>00-test-js.js</dd>
+                            <dd>01.js</dd>
+                            <dd>02.js</dd>
+                            <dd>03.js</dd>
+                            <dd>04.js</dd>
+                            <dd>05.js</dd>
+                            <dd>06.js</dd>
+                            <dd>07.js</dd>
+                            <dd>08.js</dd>
+                            <dd>09.js</dd>
+                        </dl>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <dl>
+                            <dd><a href="02-javascript/javascript-Hugo" class="btn btn-danger" role="button" target="_blank">Html Hugo</a></dd>
+                            <dd> 01-Les-Variables.html</dd>
+                            <dd> 02-LesTableaux.html</dd>
+                            <dd> 03-La-Concatenation.html</dd>
+                            <dd> 04-Les-Operateurs-Arithmetiques.html</dd>
+                            <dd> 05-IncrementationEtDecrementation.html</dd>
+                            <dd> 06-LesFonctions.html</dd>
+                            <dd> 07-Exercice1.html</dd>
+                            <dd> 08-Les-Conditions.html</dd>
+                            <dd> 09-Les-Boucles.html</dd>
+                        </dl>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <dl>
+                            <dd><a href="02-javascript/javascript-Hugo/assets/js/" class="btn btn-danger" role="button" target="_blank">JS Hugo</a></dd>
+                            <dd>01.js</dd>
+                            <dd>02.js</dd>
+                            <dd>03.js</dd>
+                            <dd>04.js</dd>
+                            <dd>05.js</dd>
+                            <dd>06.js</dd>
+                            <dd>07.js</dd>
+                            <dd>08.js</dd>
+                            <dd>09.js</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--========================== AFFIX Bootstrap ==========================-->
+    <!--https://www.w3schools.com/Bootstrap/bootstrap_affix.asp-->
+        <div class="container" style="background-color:#F44336;color:#fff;height:200px;width:100%;">
+            <h1>Bootstrap Affix Example</h1>
+            <h3>Fixed (sticky) navbar on scroll</h3>
+            <p>Scroll this page to see how the navbar behaves with data-spy="affix".</p>
+            <p>The navbar is attached to the top of the page after you have scrolled a specified amount of pixels.</p>
+        </div>
+
+        <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Basic Topnav</a></li>
+            <li><a href="#">Page 1</a></li>
+            <li><a href="#">Page 2</a></li>
+            <li><a href="#">Page 3</a></li>
+        </ul>
+        </nav>
+
+        <div class="container" style="height:1000px">
+            <h2>Mardi 23 Mai & Mercredi 24 Mai</h2>
+            <p>
+                Mardi 23 Mai 00-test-js => Chap 3
+                Mercredi 24 Mai Chap 4 => Chap 9
+                17 chapitres à faire<br>
+                penser à effacer le cash<br>
+                Mardi 6 Juin Atelier Bootstrap
+
+                lui rappeler de travailler le “référencement de notre site internet”
+                MD5 obsolète. Maintenant SHA1
+                Google :
+                Sécurisé (https), charge lentement, pas responsive baisse du référencement
+
+ 
+                tableau on récupère avec un numéro
+                objet on récupère avec un string (json)
+
+
+                
+
+
+                API / Objet / Méthode /Propriété
+                https://openclassrooms.com/forum/sujet/difference-entre-un-methode-et-une-propriete-29264
+                https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Utiliser_les_objets
+                https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Le_mod%C3%A8le_objet_JavaScript_en_d%C3%A9tails
+
+Un objet est un ensemble de propriétés
+une propriété est une association entre un nom (aussi appelé clé) et une valeur.
+La valeur d'une propriété peut être une fonction, auquel cas la propriété peut être appelée « méthode ».
+
+console.log(typeof x); afficher le type de la valeur dans la console
+Nombre = console.log(parseInt(Nombre)); “12,24”=>12=>typeof string number 
+parseFloat();
+.toString();
+ 
+string & number
+camel
+déclarer/ affecter une variable
+Variable Globale vs Variable Locale (function{valable uniquement ici})
+
+
+                API
+                Référence Web API (https://developer.mozilla.org/fr/docs/Web/API)
+                window
+                document.write
+
+                Objet:
+                window
+                document.createElement objet.méthode
+
+                Methode:
+                Index des méthodes JavaScript (https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Index_des_m%C3%A9thodes)
+                window.alert();
+
+                Propriété:
+                Index des propriétés (https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Index_propri%C3%A9t%C3%A9s)
+
+                Fonction:
+                parseFloat; retourne un float
+                parseInt(); retourne un entier
+
+                Types:
+                string
+                number (integer, float)
+                array
+                boolean
+            </p>
+
+            <h2>chapitre 0 - test JS</h2>
+            <p>
+                VUE
+                let, var, const
+
+                consol.log
+                toString
+                typeof
+
+                EXPLICATION
+                var x = “23” vs 23;
+                    JS langage auto-typées car réaffectation
+                    accessible en locale et globale
+                let y; 
+                    dans {} let y ≠ let y
+                const Z; // en majuscule
+                    const HOST = "localhost";
+                    const USER = "root";
+                    const PASSWORD = "mysql";
+
+                pas de réaffectation pour let et const
+
+            </p>
+            <h2>Chapitre 1</h2>
+            <p>
+                VUE
+                déclarer une variable et lui affecter une valeur
+                console.log();
+                typeof x / console.log(typeof var/let/CONST);
+                Variables Globales vs Locales (function())
+                boolean
+                const x = ?; majuscule
+                var : auto-typées
+                les fonctions natives Javascript:
+                    parseInt(); retourne un entier
+                    parseFloat();
+                    toString();
+                
+                QUESTIONS:
+                x = y.toString(); vs x = y.parseInt();
+                parseInt(varletcon); => fonction
+                varletcon.toString(); => objet
+            </p>
+            <h2>Chapitre 2</h2>
+                <h3>VUE</h3>
+                <p>
+                    Déclarer un Tableau:<br>
+                        var Tableau = [];<br>
+                        var Tableau = new Array;<br>
+                    Affecter une valeur<br>
+                        Tableau[0] = "Tanguy";<br>
+                    Déclarer et Affecter des valeurs:<br>
+                        var Tableau = ["Tanguy", "Manas"];<br>
+                    Afficher une valeur ou toutes les valeurs:<br>
+                        console.log(Tableau[0])/(Tableau);<br>
+                    Déclarer et Affecter des Valeurs à un Objet. (Pas de Tableau Associatif en JS)<br>
+                        var monObjet = {<br>
+                            "prenom"    : "Tanguy",<br>
+                            "nom"       : "Manas"<br>
+                        }<br>
+                    Tableau à 2 dimensions:<br>
+                        var Tableau1 = ["1",...,"n"]<br>
+                        var TabDim = [Tableau1, Tableau2, ..., TableauN];<br>
+                        ou plus rapide<br>
+                        var TabDim = [<br>
+                            {"Tableau1" : "1", "..." : "...", "TableauN" :"1"},<br>
+                            {"Tableau1" : "n", "..." : "...", "TableauN" :"n"}<br>
+                        ]<br>
+                    Affichage :<br>
+                        document.write(TabDim[0](1er Tableau)[2](2eme élément));<br>
+                        document.write(" ");...<br>
+                    Tableau 3D
+                        var Tab3Dim = [<br>
+                            {
+                                "Tableau1" :   "1", 
+                                "Tableau2" :   "1", 
+                                "TableauN" :   {
+                                                "... : "..."
+                                                } 
+                            },...<br>
+                        ];<br>
+                    array.push("..."); ajoute un élément à la fin du tableau + renvoie la valeur<br>
+                    unshift(); fction qui ajoute un ou plusieurs éléments en début de tableau<br>
+                    pop(); supprimer le dernier élément + récupérer valeur ds une var<br>
+                    shift(); idem mais pour le 1er élément<br>
+                    splice(index, qté, "valeur"); efface et/ou ajoute une valeur + renvoie le(s) élément(s) effacé(s)<br>
+                    
+                </p>
+                <h3>EXERCICE</h3>
+                <p>
+                    créez un Tab à 2 dimensions appelé
+                    "AnnuaireDesStagiaires" qui contiendra
+                    ttes les coordonnées pour chaque stagiaire.<br>
+                    Ex: Nom, Prénom, Tel
+                </p>
+                <h3>QUESTIONS</h3>
+                <p>
+                    c koi un tableau associatif ?<br>
+                    pourquoi nombreElementsDeMonTableau n'affiche que le nb d'éléments et pas leurs valeurs dans console (cf brouillon.js)<br>
+                </p>
+            <h2>Chapitre 3</h2>
+                <h3>VUE</h3>
+                <p>
+                    La Concaténation<br>
+                    var DateDuJour = new Date();<br>
+                    document.write(DateDuJour.getDate() + (DateDuJour.getMonth() + 1) + DateDuJour.getFullYear());<br>
+                </p>
+                <h3>EXERCICES</h3>
+                <p>
+                    créer une concaténation à partir des éléments suivants
+                </p>
+                <h3>QUESTIONS</h3>
+            <h2>Chapitre 4</h2>
+                <h3>VUE</h3>
+                <p>
+                    Les Opérateurs<br>
+                    var nb1, nb2, resultat;<br>
+                    += / -= / *= / /= / %=<br>
+                </p>
+            <h2>Chapitre 5</h2>
+                <h3>VUE</h3>
+                <p>
+                    Incrémentation & Décrémentation<br>
+                    nb++ / nb-- / ++nb<br>
+                </p>
+            <h2>Chapitre 6</h2>
+                <h3>VUE</h3>
+                <p>
+                    <h4>Les Fonctions</h4>
+                    function toto(parametre1,...){<br>
+                        return nb1 + nb2;<br>
+                    }<br>
+                    document.write("<\p>" + addition(10, 5) + "<\/p>");<br>
+                    nb1 = Number(prompt("nb1"));<br>
+                </p>
+                <h3>EXERCICE</h3>
+                <p>
+                    Créez une fction permettant d'effectuer l'addition de 2 nb passés en parametres
+                </p>
+            <h2>Chapitre 7</h2>
+                <h3>Exercice</h3>
+                <p>
+                    Votre mission, que vous devez accepter !<br>
+                    Réaliser une fonction permettant à un internaute de :<br>
+                    - Saisir son Prénom dans un Prompt<br>
+                    - Retourner à l'Utilisateur : Bonjour [PRENOM], Quel age as-tu ?<br>
+                    - Saisir son Age<br>
+                    - Retourner à l'Utilisateur : Tu est donc né en [ANNEE DE NAISSANCE].<br>
+                    - Afficher ensuite un récapitulatif dans la page.<br>
+                    Bonjour [PRENOM], tu as [AGE] ! 
+                </p>
+            <h2>Chapitre 8</h2>
+                <h3>VUE</h3>    
+                <p>
+                    <h4>Les Conditions</h4>
+                    if(condition){<br>
+                        ...<br>
+                    }else{<br>
+                        ...<br>
+                    }<br>
+                    return parseInt(prompt("Bonjour, Quel age avez-vous ?","<\Saisissez votre Age>"));<br>
+                    <h4>Les Opérateurs de Comparaison</h4>
+                    <p>
+                        ==<br>
+                        === : valeur et type<br>
+                        !== <br>
+                        !=== <br>
+                    </p>
+                    <h4>Les Opérateurs Logiques</h4>
+                    <p>
+                        && ou AND : ET
+                        || : OU
+                        !  : contraire ou Not
+                    </p>
+                    <h4>Exercices</h4>
+                    <p>
+                        Créer une fonction permettant de vérifier l'age d'un visiteur (prompt).
+                        S'il a la majorité légale, alors je lui souhaite la bienvenue, 
+                        sinon, je fait une redirection sur Google après lui avoir signalé le soucis.
+                    </p>
+                    <p>
+                        J'arrive sur un Espace Sécurisé au moyen d'un email et d'un mot de passe.
+                        Je doit saisir mon email et mon mot de passe afin d'être authentifié sur le site.
+                        En cas d'échec une alert m'informe du problème.
+                        Si tous se passe bien, un message de bienvenue m'accueil.
+                    </p>
+                    <br>
+                </p>
+            <h2>Chapitre 9</h2>
+                <p>
+                    <h3>VUE</h3>
+                    <p>
+                        <h4>Les Boucles</h4>
+                        <p>
+                            For :<br>
+                            Pour i=1, tant que i=<, alors j'incrémente i++<br>
+                            for (var i=1; i<10; i++){<br>
+                                ... i ;<br>
+                            }<br>
+                            While :<br>
+                            var j=1;<br>
+                            while(j<10){<br>
+                                j ;<br>
+                                j++;<br>
+                            }<br>
+                            .forEach :<br>
+                            myArray.forEach(maFonction);<br>
+                            function maFonction(prenom,indice) {<br>
+                                console.log(prenom);<br>
+                            }<br>
+                            Attention à la Perf !<br>
+                            https://benhollis.net/blog/2009/12/13/investigating-javascript-array-iteration-performance/<br>
+                            https://leftshift.io/4-javascript-optimisations-you-should-know<br>
+                        </p>
+                    </p>
+                    <h3>EXERCICES</h3>
+                    <p>
+                        Supposons, le tableau suivant :<br>
+                        var Prenoms = ['Hugo', 'Jean', 'Matthieu', 'Luc', 'Pierre', 'Marc'];<br>
+                        CONSIGNE :<br>
+                        1 - Grâce à une boucle FOR, afficher la liste des prénoms du tableau suivant 
+                        dans la console ou sur votre page.<br>
+                        2 - Grâce à une boucle WHILE<br>
+                        3 - Grâce à une boucle FOREACH<br>
+                    </p>
+                    <h3>QUESTIONS</h3>
+                    <p>
+
+                    </p>
+                </p>
+
+        </div>
+
+
+
+
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- Bootstrap Affix réglage de base3.2.1 à la place de 1.12.4-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>

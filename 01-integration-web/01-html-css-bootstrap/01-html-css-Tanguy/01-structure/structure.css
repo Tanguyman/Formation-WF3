@@ -1,0 +1,59 @@
+/*
+Cette strucuture s'appelle un ensemble de rêgle (généralement on appelle ça une rêgle)
+
+Ici body est le selecteur.
+Le selecteur permet de définir les éléments sur lesquels le style souhaité doit s'appliquer (en l'occurence l'élément body)
+Pour mettre en forme un élément différent, il suffit de changer le sélecteur.
+
+Entre accolade nous avons 2 déclarations.
+Chaque déclaration est séparée de la suivante par ";"
+Une déclaration comporte une propriété (background-color) et une valeur de propriété (lightgrey)
+Chaque propriété est séparée de sa valeur par "/"
+*/
+
+body{
+	/* déclaration css définissant la couleur de fonde l'élément */
+	background-color: lightgrey; /* #D3D3D3 ; */
+
+	/* définition de la couleur de l'élément */
+	color: white; /* rgba(255,255,255,0.1) a = opacité à 0.1*/
+}
+header {
+	background-color: dodgerblue;
+	/* définition de la hauter de l'élément */
+	height: 100px;
+}
+nav{
+	background-color: slategrey;
+	height: 30px;
+}
+section{
+	background-color: whitesmoke;
+	height: 500px;
+	color: slategrey;
+}
+
+/*
+Couleurs
+en css nous pouvons f. appel au couleurs de 3 manières différentes
+
+- des mots clés de couleurs basés sur une désignation en anglais.
+exemple: black, xhite...
+Nous pouvons f. appel ainsi à plus de 200 couleurs
+
+-code Hexadécimal:
+c une combinaison de 3 ou 6 caractères de 0à9 et AàF
+correspondant à 16x16x16x16x16x16=16 777 216 couleurs différentes
+syntaxe: #ff0011
+
+- code décimal
+une cobinaison de 3 valeurs de 0à255 correspondant à 256x256x256=16 777 216 couleurs différentes
+syntaxe: rgb(255,255,255)
+transparence
+syntaxe: rgba(255,255,255,0.5)
+
+GESTION DES COULEURS ["GRAPHISME"]
+kuler
+Paletton
+colourlovers
+*/

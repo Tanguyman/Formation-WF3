@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>WF3 - Brouillon</title>
+
+        <!-- Bootstrap -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/formation.css">
+        
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+  
+    <body>
+        <!--<h1 class="monh1">Helloo, world!</h1>-->
+
+        <!--========================== MENU - navbar role="navigation" ==================================-->        
+            <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index-wf3.html">Formation - WF3 (OCR)</a>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="index-wf3.html">Brouillon</a></li>
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cours <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="01-integration-web/cours.html">Intégrateur Web</a></li>
+                                    <li><a href="02-javascript.html">Javascript</a></li>
+                                </ul>
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GdP <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-header">Nav header</li>
+                                    <li><a href="gdp.html">GdP</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Tableau de Bord</a></li>
+                                    <li><a href="#">Todolist</a></li>
+                                    <li><a href="#">Done</a></li>
+                                    <li><a href="#">One more separated link</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Divers <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-header">Nav header</li>
+                                    <li><a href="divers.html">Divers</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Documentation (Réf)</a></li>
+                                    <li><a href="#">Raccourci Clavier</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li><a href="#">One more separated link</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </nav>
+            <!--PASSER LE CAROUSSEL EN 1ER POSITION DANS MOBILE-->
+            <!--<div class="container">            
+                <div class="row">
+                    <div class="col-sm-6 col-sm-push-6">
+                        Photo
+                    </div>
+                    <div class="col-sm-6 col-sm-pull-6">
+                        Texte
+                    </div>
+                </div>
+            </div>-->
+
+        <!--========================== PAGE - page-header  ==================================-->
+            <div class="page-header">
+                <div class="container">            
+        <!--============== STRUCTURE FRONT ========-->
+                <div class="row">
+                    <h3 class="col-xs-12">Structure Front <small>menu, page...</small></h3>
+                </div>
+            <!--====== Le Menu ======-->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Le Menu <small>navbar</small></h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-4">
+                                        <dl>
+                                            <dt>MENU 1er Level</dt>
+                                            <dd>DASHBOARD</dd>
+                                            <dd>COURS</dd>
+                                            <dd></dd>
+                                            <dd></dd>
+                                            <dd></dd>
+                                            <dd></dd>
+                                        </dl>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4">
+                                        <dl>
+                                            <dt>COURS - Thèmes</dt>
+                                            <dd>HTML/CSS</dd>
+                                            <dd>Bootstrap</dd>
+                                            <dd>SEO</dd>
+                                            <dd>Opquast</dd>
+                                            <dd><a href="02-javascript.html" class="btn btn-danger" role="button" target="_blank">JavaScript </a></dd>
+                                            <dd></dd>
+                                        </dl>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4">
+                                        <dl>
+                                            <dt>COURS - Catégories</dt>
+                                            <dd>Cours, Exemples</dd>
+                                            <dd>PdN (s20.day,papier..)</dd>
+                                            <dd>Mementos</dd>
+                                            <dd>Fiches</dd>
+                                            <dd>Exos</dd>
+                                            <dd>Questions/ Prob/ Rmq </dd>
+                                            <dd>Problèmes résolus</dd>
+                                            <dd>Checklists</dd>
+                                            <dd>Evaluation</dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!--====== Les Pages ======-->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Les Pages - panel-default</h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="col-xs-12 col-sm-4">
+                                    Home <br>
+                                    - planning<br>
+                                    - tâches/ todolist<br>
+                                    - Tristan (Dashboard, TdB)<br>
+                                    - Projet: Formation WF3<br>
+                                    - But:<br>
+                                    => ts en 1 clic<br>
+                                    => programmer mon emploi du temps <br>
+                                        <=> planifier mes tâches<br>
+                                    - Finalité:<br>
+                                    => savoir où j'en suis !!<br>
+                                    => prendre de la hauteur<br>
+                                    iframe html<br>
+                                    sXX-dailylog-wf3.doc<br>
+                                    <hr>
+                                    apolearn<br>
+                                    OCR
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <!--============== STRUCTURE BACK =========-->                                       
+                <div class="row">
+                    <h3 class="col-xs-12">Structure Back <small>Dossiers & Fichiers</small></h3>
+                </div>
+            <!--====== test ======-->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Dossiers</h3>
+                            </div>
+                            <div class="panel-body">
+                                <dl>
+                                    <div class="col-xs-12 col-sm-3">
+                                            <dt>HTML templates</dt>
+
+                                            <dd>header</dd>
+                                            <dd>nav</dd>
+                                            <dd>footer</dd>
+                                            <dd>section [main, aside]</dd>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-3">
+                                            <dt>Html Contenus</dt>
+
+                                            <dd>index, accueil, dashboar.htm</dd>
+                                            <dd>pages.html</dd>
+                                            <dd></dd>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-3">
+                                            <dt>CSS</dt>
+
+                                            <dd>Bootstrap</dd>
+                                            <dd></dd>
+                                            <dd></dd>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-3">
+                                            <dt>ASSETS Divers</dt>
+
+                                            <dd>JS</dd>
+                                            <dd>img</dd>
+                                            <dd>font</dd>
+                                            <dd>icons</dd>
+                                            <dd>exemples type W3School</dd>
+                                    </div>
+                                </dl>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+        <!--============== DATA FRONT ==============-->
+                <div class="row">
+                    <h3 class="col-xs-12">Data Front <small>Drive, Mac, Fav-Web, Papiers</small></h3>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Drive/ Mac/ Fav-Web/ Papiers</h3>
+                            </div>
+                            <div class="panel-body">
+                                <dl>
+                                    <div class="col-xs-12 col-sm-6">
+                                        <dt class="bg-primary">Drive</dt>
+
+                                        <dt class="bg-info">Documents</dt>
+                                        <dd>Administratif - WF3.gdoc</dd>
+                                        <dd>Check-list et Bonnes Pratiques - WF3.gdoc</dd>
+                                        <dd>Daily Log WF3.gdoc</dd>
+                                        <dd>GED WF3.gsheet</dd>
+                                        <dd>mementos_points-a-retenir.gsheet</dd>
+                                        <dd>objectifs-strategiques_wf3.gdoc</dd>
+                                        <dd>pdn_wf3.gdoc</dd>
+                                        <dd>Planning - WF3.gdoc</dd>
+                                        <dd>Questions-Remarques-Problèmes - WF3.gdoc</dd>
+                                        <dd>Rapid_Logging_WF3.xls.gsheet</dd>
+                                        <dd>s18_daily-log_wf3.gdoc</dd>
+                                        <dd>s19_daily-log_wf3.gdoc</dd>
+                                        <dd>s20_daily-log_wf3.gdoc</dd>
+                                        <dd>s21_daily-log_wf3.gdoc</dd>
+                                        <dd>tdb_wf3.gsheet</dd>
+                                        <dd>todolist_wf3.gdoc</dd>
+                                        <dd>TPP-WF3.gsheet</dd>
+                                        <dt class="bg-info">Dossiers</dt>
+                                        <dd>1 IntegWeb 91h WF3</dd>
+                                        <dd>2 PHP 140h WF3</dd>
+                                        <dd>3 JS 84h WF3</dd>
+                                        <dd>4 MySQL 21h WF3</dd>
+                                        <dd>5 PHP POO MVC 105h WF3</dd>
+                                        <dd>6 WORDPRESS 21h WF3</dd>
+                                        <dd>7 VISION D'ENSEMBLE 28h WF3</dd>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6">
+                                        <dt class="bg-primary">Mac</dt>
+                                        <dd>htdocs</dd>
+                                        <dd>Document/.../webforce3</dd>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6">
+                                        <dt class="bg-primary">Favoris Web</dt>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6">
+                                        <dt class="bg-primary">Notes Papiers</dt>
+                                    </div>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        <!--============== DATA BACK ==============-->
+        
+        <!--============== BROUILLON ==============-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Brouillon</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <!-- Split button -->
+                                    <div class="btn-group">
+                                    <button type="button" class="btn btn-danger">Nav</button>
+                                    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+                                        <span class="caret"></span>
+                                        <span class="sr-only">Toggle Dropdown</span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#">HTML/CSS</a></li>
+                                            <ul>
+                                                <li>Cours</li>
+                                                <li>PdN</li>
+                                                <li>Mementos/Fiches</li>
+                                                <li>Exercices</li>
+                                                <li>Questions</li>
+                                                <li>Checklists</li>
+                                            </ul>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="#">Separated link</a></li>
+                                    </ul>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="assets/js/bootstrap.min.js"></script>
+    </body>
+</html>

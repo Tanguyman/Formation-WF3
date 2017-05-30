@@ -1,0 +1,44 @@
+p{ color: red; } /* Tous les éléments p */
+p:nth-child(even){color:blue;} /* éléments p pairs */
+p:nth-child(odd){ color: brown;}/* éléments p impairs */
+p:nth-child(5), p:nth-child(6){color: orange;} /* éléments précis numero 5 et 6 */
+p:first-child { color: green; } /* 1er élément p de la page ou 1er élément p d'un parent */
+p:last-child{ color: green; } /* idem dernier élément p */
+div:not(.zoneB){ font-weight: bold;}
+.zoneA{
+	color: #f56f56;
+}
+.zoneB{
+	color: #996633;
+}
+.couleurBleu{
+	color: #336699;
+}
+.gras{
+	font-weight: bold;
+}
+#zoneC{
+	color: #98f32f;
+}
+#zoneD span{
+	color: #32ff32;
+}
+/*
+Plusieurs moyens de styliser un élément:
+- par son id : #elem
+- par sa classe : .elem
+- par sa balise
+- par sa balise + numero: balise:nth-child(1)
+
+Regle d'écriture:
+div.zone{} veut dire : "cibler la div avec la classe zone"
+div .zone{} veut dire : "cibler la classe zone qui se trouve à l'interieur de la div" (c'est l'espace qui change la signification)
+.maclasse, .maclasse2{} : il y a des virgules, on applique sur les differents éléments.
+*/
+
+
+
+
+
+
+

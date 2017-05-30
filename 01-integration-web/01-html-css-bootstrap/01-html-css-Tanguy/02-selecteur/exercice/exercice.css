@@ -1,0 +1,16 @@
+body{
+	font-size: 25px;
+}
+
+body article div:nth-child(1){
+	color: red;
+}
+
+/*
+.classe1{
+	color:red;
+}
+*/
+section#section1 span.classe1{
+	color:red;
+}

@@ -1,0 +1,49 @@
+#conteneur{
+	border: 2px solid;
+	margin: 0 auto;
+	width: 80%;
+	max-width: 1200px;
+	font-size: 1.2vw;
+	/* vw specifie une mesure en fonction de la largeur de la fenetre (Viewport Width) */
+}
+header{
+	background: #f6523f;
+	height: 15vh;
+}
+nav{
+	background: #665533;
+	height: 5vh;
+}
+section{margin: 2%;}
+footer{
+	background: #32f65f;
+	height: 5vh;
+}
+.a{
+	float: left;
+	width: 50%;
+	height: 28vh;
+	/* Specifie une mesure en fonction de la hauteur de la fenetre ( Viewport Height) */
+	background: #336699;
+}
+.b{
+	float: left;
+	width: 50%;
+	height: 28vh;
+	background: #767676;
+}
+.c{
+	float: left;
+	width: 50%;
+	height: 28vh;
+	background: #fda500;
+}
+.d{
+	float: left;
+	width: 50%;
+	height: 28vh;
+	background: #aa2355;
+}
+.clear{
+	clear: both;
+}

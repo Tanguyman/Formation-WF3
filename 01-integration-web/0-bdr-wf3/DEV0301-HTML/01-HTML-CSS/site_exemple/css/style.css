@@ -1,0 +1,86 @@
+body{
+	margin: 0;
+	background: #207ce5;
+	color: #333;
+}
+header{
+	background: rgba(255,255,255,0.7);
+}
+header h1{
+	font-size: 2.6em;
+	border-bottom: 2px dotted #999;
+}
+h2{
+	font-size: 1.3em;
+	margin: 20px 0;
+	border-bottom: 1px solid #999;
+}
+.bloc100{
+	width: 90%;
+	padding: 5%;
+	background: rgba(255,255,255,0.5);
+}
+.bloc50{
+	width: 40%;
+	padding: 5%;
+	background: rgba(255,255,255,0.5);
+	float: left;
+}
+.bloc25{
+	width: 15%;
+	padding: 5%;
+	background: rgba(255,255,255,0.5);
+	float: left;
+}
+footer{
+	background: rgba(255,255,255,0.7);
+}
+.conteneur{
+	width: 960px;
+	margin: 0 auto;
+	background: rgba(255,255,255,0.5);
+}
+.clear{
+	clear: both;
+}
+/* ******** TABLES ******************** */
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+th, td{
+	border: 1px solid #999;
+	padding: 15px;
+}
+th{
+	background: #777;
+	color: white;
+	text-align: left;
+}
+tfoot~tbody tr:nth-child(odd){
+	background: #eee;
+}
+caption.captionbig{
+	background: #333;
+	border: 1px solid #555;
+	color: white;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	padding:15px;
+}
+
+/*
+div.zone{} veut dire: aller chercher la div qui possède la classe zone
+
+div .zone{} veut dire: aller chercher l'élément de classe zone qui se trouve à l'INTERIEUR de la div (c'est l'espace qui change la signification)
+
+div~span veut dire: aller chercher l'élément span suivant directement l'élément div (qui se situe apres la balise de fermeture de div)
+ */
+
+
+
+
+
+
+
+

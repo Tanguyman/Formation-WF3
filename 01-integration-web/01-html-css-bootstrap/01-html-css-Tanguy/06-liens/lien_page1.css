@@ -1,0 +1,34 @@
+body{
+	background-color: #72a0da;
+}
+
+a:link{ /*link dans son état par défaut*/
+	color: orange;
+	text-decoration: none;
+}
+
+a:visited{
+	color: purple;
+}
+
+a:hover{
+	color: red;
+	cursor: grab;
+}
+
+a:active{
+	color: white;
+	cursor: grabing;
+}
+
+div{
+	background-color: blue;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	line-height: 50%;
+
+}
+
+span{
+}

@@ -1,0 +1,115 @@
+/* ************** POLICE ************** */
+@font-face { /* utilisation d'une police css3 à l'aide d'une url */
+	font-family: "Cabin";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Cabin Regular"), local("Cabin-Regular"), url("https://themes.googleusercontent.com/static/fonts/cabin/v4/JEgmtEDzc-IH8jBshQXrYA.woff") format("woff");
+}
+@font-face { /* utilisation d'une police css3  à l'aide de fichier */
+    font-family: 'folksbold';
+    src: url('police/Folks-Bold-webfont.eot');
+    src: url('police/Folks-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('police/Folks-Bold-webfont.woff') format('woff'),
+         url('police/Folks-Bold-webfont.ttf') format('truetype'),
+         url('police/Folks-Bold-webfont.svg#folksbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ************** STRUCTURE ************** */
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Cabin";
+    line-height: 140%; /* espacement entre les lignes */
+}
+
+.container{
+    width: 650px;
+    border: 1px solid;
+    margin: auto;
+    padding: 20px;
+}
+/* ************** TEXTES ************** */
+h1, h2, h3, h4, h5, h6{
+    font-weight: normal;
+    margin: 0;    
+    font-family: 'Baloo', cursive; /* telecharger une police */
+}
+h1{
+    font-size: 50px;
+    color: dodgerblue;
+    letter-spacing: 3px; /* espacemet entre les lignes */
+    text-transform: uppercase; /*capitalize / uppercase / lowercase / none */
+    text-align: center; /* alignement horizontal */
+}
+
+h2{
+    font-size: 25px;
+    color: #666;
+    text-align: center;
+    margin: 25px 90px 40px;
+    /*text-decoration: underline; overline / Line-throught */
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+
+h4{
+    font-size: 18px;
+    color: orange;
+
+}
+
+body article h4 span{ /* ou h4 span */
+    color: #666;
+    margin-left: 50px;
+}
+
+h4 i{
+    margin-right: 5px;
+}
+
+ul ol{
+    padding-left: 10px;
+}
+
+ul li{
+    list-style-type: none; /* circle / square / disc */
+}
+
+fieldset legend{
+    font-size: 18px;
+    font-weight: bold;
+    color: orange;
+    padding: 0 10px;
+}
+fieldset p{
+    font-size: 15px;
+    text-align: justify;
+    line-height: 120%;
+    font-style: italic;
+}
+
+summary{
+    color: red;
+    transition: 1s;
+    display: inline; /* width: 200px; */
+}
+
+summary:hover{
+    color: blue;
+    cursor: pointer; /* affiche une main ;) */
+}
+
+img{
+    /* text-align: center; */
+    float: left;
+    padding: 0 30px 10px 0;
+    width: 220px;   
+}
+ /* ************** BLOCS ************** */
+ 
+ 
+ 

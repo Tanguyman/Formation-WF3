@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<!-- DOCTYPE décla du type de doc, qui indique au nav ds quel version de html la page a été écrite
+Cela indique aux anciens navigateurs de désactiver leur mode de rendu pour éviter les erreurs en cas de balise non reconnue.
+Ici c'est le DOCTYPE correspondant au HTML5 (uniquement)
+-->
+
+<html>
+<!-- <html> encadre ts le contenu de la page. Il est parfois appelé l'élément RACINE.-->
+	
+	<head>
+	<!-- head (=en tete) contient les infos générales (métadonnées) sur le doc
+	ex: le titre, les mots clé ou des liens vers des scripts ou des feuilles de style-->
+		<meta charset="utf-8">
+		<!--charset définit le jeu de caractère utilisé pour le doc et indiq que c UTF-8 (regroupe l'ensemble des caractères connu utilisé ds les différents langages humain)-->
+		<title>Ma première page</title>
+		<!-- title déf le titre de la page. Il apparait dans l'onglet du navigateur et est utilisé dans la recherche Google (c la parti bleu) ou encore dans le marque-page-->
+		<meta name="description" content="Voici une description de mon site" />
+		<!--
+		meta réprésente différents types de métadonnées. L'attribut name est associé à une valeur contenu dans l'attribut content
+		description contient un résumé concis et pertinent du contenu de la page
+		-->
+		<meta name="keywords" content="mot-clé1, mot-clé2, deux mots, iphone, ifone, etc" />
+		<!--keywords contient une liste de mots clés pertinents et en rapport avec le contenu de la page-->
+		<meta name="author" content="mySelf" />
+		<!--renseigne sur le nom de l'auteur du doc-->
+		<link rel="stylesheet" href="structure.css" />
+		<!-- link définit la relation entre le doc courant et une ressource externe
+		rel renseigne sur le type de relation
+		href indique le chemin vers la ressource externe
+		-->
+		
+		<style type="text/css">
+			section {font-weight: bold;}
+		</style>
+		<!-- contient des info de mise en forme pour un doc -->
+		<link rel="stylesheet" type="OPTIONNEL" href="favicon.ico">
+		<!-- type="" est optionnel dans html5
+		meta = no follow et no index pour optimiser quoi ?
+		-->
+	</head>
+	
+	<body>
+	<!-- (corps) représente le contenu principal du doc html, ce ki est affiché à l'écran.
+	C'est à l'intérieur du body que se trouve la majeure partie du code-->
+		<header>
+		<!--(zone du haut) représente un groupe de contenu imtroductif ou de contenu aidant à la navigation. Il peut contenir des éléments de titre (H1), mais aussi d'autres éléments tel le logo, un formulaire de recherche.-->
+			haut
+		</header>
+		
+		<nav>
+		<!-- zone de menu représente une section d'une page ayant des liens vers d'autres pages ou des fragments de cette page. Autrement dit c une section consacrée à la navigation dans un document-->
+			Menu
+		</nav>
+		
+		<section>
+		<!-- zone de contenu représente une zone générique d'un doc, ex un groupe de contenu thématique. Une section commence généralement par (h2)
+		-->
+			<h1>Mon Titre H1</h1>
+			
+			<div>
+				Section -> div
+			</div>
+			<div style="color: blue; background-color: green;">
+			<!-- l'attribut style contient les déclarations css utilisées pour mettre en forme l'élément. Le role de l'attribut style consiste à permettre une mise en forme rapide notament pour des tests -->
+				Section -> div 2
+			</div>
+			<!--est un conteneur générique permettant d'organiser le contenu sans représenter rien de particulier.
+			Il doit uniquemt etre utilisé lorsque aucun autre élément sémantique n'est approprié -->
+			<!-- -->
+
+			<span style="color:red;">Section -> span Contenu</span>
+			<span style="color:blue;">Section -> span 2 Contenu</span>
+			<!-- c'est un conteneur générique pour les contenus textuels. Il ne rprésente rien de particulier. Il doit etre uniquement utilisé lorsque aucun autre élément SEMANTIQUE ne peut etre utilisé -->
+		</section>
+		
+		<article>
+			Article
+		</article>
+		<!-- représente du contenu autonome sur une page. Ceci peuvent etre un message sur un forum, une parution sur un blog ou autre élément de contenu independant.
+		Le contenu est prévu comme pouvant etre distribué ou utilisé indépendamment (ex: un flux de syndication = RSS(netvibes)) -->
+		
+		<aside>
+			Aside
+		</aside>
+		<!-- (aparté) est une section de la page dont le contenu est directement lié à ce qui l'entoure et qui ne pourrait pas etre separé de cet environnement. De tellles sections sont souvent représentées par des colonnes annexes ou des encadrés.
+		C'est souvent l'utilisation assignée aux colonnes latérales lorsque la résolution le permet.-->
+		
+		<footer>
+			Bas de page
+		</footer>
+		<!-- (zone du bas) il représente le pied de page ou de la section. Il contient habituellemt des infos sur l'auteur de la section, les données relatives aux droits d'auteur (copyright), ou bien les liens vers d'autres docs en relation (mentions légales, plan du site, condition géné d'utilisation CGU; de vente CGV...) -->
+	</body>
+</html>
+<!--l'hypertext markup html
+est un langage à balise utilisé pour la création de contenu et de structuration sémantique de page web.
+- Création et hierarchisation du contenu dans une structure d'éléments (balises) imbriqués.
+- chaque élément contenant définit la valeur sémantique (la signification) du contenu aux yeux du navigateur (ex la balise title)
+=> SEMANTIQUE vs ???
+
+Un élément par ex HEADER commence à la balise ouvrante (ou balise d'ouverture) et se termine après la balise fermante (ou de fermeture)
+<header>...</header>
+
+Les balises indiquent la nature du contenu qu'elles encadrent. Elles disent ceci est le TITRE de la page ou ceci est un HEADER ou encore PARAGRAPHE de txt, etc.
+Certains éléments sont des balises ne contenaant pas de contenu txt ou autres, on parle d'éléments libres ou orpheline.
+ex: la balise <meta />
+Une balise ouvrante peut contenir des info additionnels
+certaines balises demandent un attribut pour fcter, d'autres attributs sont optionnels
+Les attributs consistent en 2 parties 
+- un nom d'att le définissant suivi du signe "="
+- une valeur d'att entre guillemets ""-->

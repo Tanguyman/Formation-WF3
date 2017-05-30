@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Formulaires</title>
+		<link rel="stylesheet" type="text/css" href="formulaire.css">
+	</head>
+	<body>
+		<form method="get" action="#">
+		<label for="idpseudo">Pseudo</label>
+			<input type="text" name="pseudo" id="idpseudo" required="required">
+			
+			<label for="mdp">mot de passe</label>
+			<input type="password" name="mdp" id="mdp">
+
+			<label for="email">Email</label>
+			<input type="email" name="email" id="email">
+
+			<label for="avatar">Avatar</label>
+			<input type="file" name="avatar" id="avatar">
+			
+			<label for="pays">Pays</label>
+			<select id="pays" name="pays"><!-- multiple="multiple" si on veut choisir France + Espagne +... -->
+				<optgroup label="Europe">
+					<option value="fr">France</option>
+					<option value="es">Espagne</option>
+					<option value="it">Italie</option>
+				</optgroup>
+				<optgroup label="Asie">
+					<option value="ch">Chine</option>
+					<option value="cs">Corée du sud</option>
+					<option value="jp">Japon</option>
+				</optgroup>
+			</select>
+
+			<label for="checkbox">Quels sont vos fruits préférés</label>
+			<input type="checkbox" name="choix">orange
+			<input type="checkbox" name="choix">poire
+			<input type="checkbox" name="choix">pomme
+
+			<label for="civilite">Civilité</label>
+			<input type="radio" name="civilite" value="h" checked="">Homme
+			<input type="radio" name="civilite" value="f">Femme
+
+			<label for="ville">Ville</label>
+			<input type="text" name="ville" id="ville" list="france">
+			<datalist id="france">
+				<option>Paris</option>
+				<option>Marseilles</option>
+				<option>Lyon</option>
+				<option>Nice</option>
+			</datalist>
+
+			<label for="adresse">Adresse</label>
+			<textarea id="adresse" name="adresse" rows="5" cols="25"></textarea>
+
+			<label for="datedenaissance">Date de naissance</label><!-- Ne marche que sur chrome -->
+			<input type="date" name="datedenaissance" id="datedenaissance">
+
+			<input type="hidden" name="cache"> <!-- id="cache" est inutil car cela sert essentiellement pour php -->
+
+			<br>
+
+			<input type="submit" name="inscription" value="s'inscrire ou envoyer">
+			<input type="reset" name="efface" value="recommencer">
+		</form>
+
+	</body>
+</html>

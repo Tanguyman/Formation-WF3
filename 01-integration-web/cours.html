@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>COURS</title>
+		<link rel="stylesheet" type="text/css" href="cours.css">
+	</head>
+	<body><header><h1>COURS - EXERCICE - TABLEAU DE BORD</h1></header>
+		<section>
+
+			<p><a href="mailto:votrenom@bidule.com">Envoyez-moi un <span>e-mail</span> ! vertical-align ;)</a></p>
+			iframe: test
+			<iframe src="../08-formulaire/formulaire.html"width="" height="10"></iframe>
+		<!-- iframe permet d'inclure un fichier ou une ressource dans une page web -->
+			<a href="https://wf3.apolearn.com/" title="fait tes exos !!!" target="_blank">Apolearn - WF3</a>
+			<a href="https://drive.google.com/drive/u/0/folders/0B_BJ8bjNcWDZYmNMT1Q2R252Nm8">Drive : dossier WF3</a>
+			<a href="https://docs.google.com/spreadsheets/d/1NGYPRZGuNrRAjXAv4E-flY1yfg1zLJeGwXm_8sTxSEk/edit#gid=0" target="_blank">Memento (drive)</a>fiche projet + dossier BdR
+			<p>
+				si JE VEUX visualiser le code IL FAUT copier l'url du navigateur POUR l'ouvrir dans sublime;<br>
+				cmd o => cmd shift G (Go to folder)<br>
+				ATTENTION: url=<del>file://</del>/users..<br>
+				ou<br>
+				Je peux afficher le code source de la page avec un clic droit et visualiser le CSS avec l'inspecteur
+			</p>
+			<a href="http://www.ascii.cl/htmlcodes.htm">table des codes HTML</a>&lt;, &amp;, &copy;, €...
+			<hr>
+
+	<!-- ================  COURS ===================== -->
+		<h2>COURS</h2>
+			<a href="/Users/yosemite_tanguy/Documents/_TANGUY_/1-projets/webforce3/0-bdr-wf3/DEV0301-HTML/01-HTML-CSS" target="_blank">DEV0301-HTML/01-HTML-CSS</a>
+			<p><pre>
+01-structure
+02-texte
+03-style-selecteurs
+04-images-fond
+05-position
+06-zoning
+07-table
+08-listes
+09-liens-menu
+10-formulaires
+11-multimedia
+12-cv
+Partage
+site_exemple
+00- CONTACT NUMA.txt
+evogue_support_html-css.pdf
+			</pre></p>
+			<a href="/Users/yosemite_tanguy/Documents/_TANGUY_/1-projets/webforce3/01-numa/01-html-css-Numa_Krouchi" target="_blank">01-html-css-Numa_Krouchi</a>
+			<p><pre>
+!-BdR-Numa
+00-partage
+01-structure
+02-Selecteur
+03-Texte
+04-image
+05-position
+06-liens
+07-table
+08-formulaire
+09-multimedia
+Slides
+			</pre></p>
+			
+
+			<a href="https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/formatage-du-texte" target="_blank">OCR - text</a>
+			<a href="file:///Users/yosemite_tanguy/Documents/_TANGUY_/1-projets/webforce3/01-numa/01-html-css-Numa_Krouchi/03-Texte/texte.html" target="_blank">Boeuf Bourguignon</a>
+			font awesome<br>
+			<a href="https://developers.google.com/fonts/docs/getting_started" target="_blank">started with google api</a>@font<br>
+			details - summary - fieldset - legend - p<br>
+			liste à puce (définition: dl dt dd )<br>
+
+			<a href="file:///Users/yosemite_tanguy/Documents/_TANGUY_/1-projets/webforce3/0-bdr-wf3/DEV0301-HTML/01-HTML-CSS/site_exemple/index.html" target="_blank" title="">DEV0301 - Tableau</a> situé dans le dossier site exemple
+			<a href="file:///Users/yosemite_tanguy/Documents/_TANGUY_/1-projets/webforce3/0-bdr-wf3/DEV0301-HTML/01-HTML-CSS/10-formulaires/formulaire.html?pseudoooooo=j&mdp=&prenom=&email=&avatar=&choix=orange&civilite=f&ville=&cp=&adresse=&datedenaissance=&telephone=&cache=ok&inscription=inscription#" target="_blank">DEV0301 - Formulaire</a>afficher le code source du formulaire pour voir le cours
+			<a href="https://developer.mozilla.org/fr/docs/Web/Guide/HTML/Formulaires/Comment_structurer_un_formulaire_HTML/Exemple" target="_blank">MDN: Exemple Formulaire</a>
+			<hr>
+
+			<h2>EXERCICES</h2>
+			<a href="file:///Users/yosemite_tanguy/Documents/_TANGUY_/1-projets/webforce3/01-numa/atelier/site-boutique-tanguy/index.html" alt="" target="_blank">Ma boutique - Tanguy</a>
+			<a href="file:///Users/yosemite_tanguy/Documents/_TANGUY_/1-projets/webforce3/01-numa/atelier/" target="_blank">Atelier</a>
+		</section>
+		<hr>
+	<!-- ================  FORMULAIRE ===================== -->
+		<h3>Formulaire: cours OCR</h3>
+		<form method="post" action="traitement.php">
+		<!-- TRAITEMENT: action=>name -->
+			
+
+			<label for="idnom">Nom</label>
+			<!-- LABEL: for=>id-->
+			<input type="text" name="nom" id="idnom" required placeholder="Votre nom ici...">
+			maxlength="5": limiter le nombre de caractères
+			value="": préremplir la valeur du txt
+			
+			placeholder="": exemple de ce qu'il faut saisir (c'est grisé)
+
+			type="password": saisir un mdp
+
+			type="email", "url", "tel" (telephone)
+
+			type="date" selectionner une date
+			_______
+
+			checked préselectionné
+			type="checkbox" checked name="valeur"
+			quand name"valeur" est identique alors l'ordi oblige à  choisir une valeur parmi la liste
+			vs
+				7min type="radio"
+			vs
+			<p><label>quel est ta nationalité</label>
+				<select>
+					<option value="france">France</option>
+					<option value="italie" selected>Italie...</option>
+				</select>
+			</p>
+			_______
+
+				<fieldset>
+					<legend></legend>
+				</fieldset>
+
+			-------
+				
+				focus
+			autofocus:
+			le curseur à l'endroit demandé dans le formulaire 
+			required:
+			oblige le visiteur à remplir le champ avant d'envoyer le formulaire
+			_______
+
+			<input type="submit" name="Envoyer">
+
+			_________________________________________
+			
+			type="search": indic au nav que c un champ de recherche 
+
+			type="number" min="5" max="10" step="10"(pour augmenter de 10 en 10)
+			type="range" comme number mais avec 1 curseur
+			type="color" selectionner une couleur
+
+			<textarea rows="5" cols="5">on peut préremplir si l'on veut</textarea>
+			taille (rows/ cols ou css avec width et height
+			<hr>
+
+			<p>
+			Mozilla Developer Network - MDN
+			Alsacreations
+			Stack Overflow
+			Can I Use
+			WebPlatform<br>
+				Brad Frost
+David Walsh
+Lea Verrou
+Sara Soueidan
+Chris Coyier
+Stephanie Walter
+Hugo Giraudel
+			</p>
+
+	</body>
+</html>

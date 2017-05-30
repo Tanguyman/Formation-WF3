@@ -1,0 +1,63 @@
+*{
+	box-sizing:border-box;
+	-mox-box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+html{-webkit-box-shadow: 0px 0px 9px -1px rgba(0,0,0,0.75) !important;
+-moz-box-shadow: 0px 0px 9px -1px rgba(0,0,0,0.75)!important;
+box-shadow: 0px 0px 9px -1px rgba(0,0,0,0.75) !important;}
+.border{border:1px solid;}
+.container{
+overflow:hidden;
+}
+.logol{color:black;}
+.grey{background:grey;}
+.menu{font-size:.3em;
+color:#F583E3;
+margin-left: 3.3em;}
+.numbaide{
+background: url("img/aide.png") no-repeat;
+padding-top: 6%;	
+}
+.texti{margin-left: 2.7em;
+top: -1.1em;
+position: relative;
+color: #3EC8F7;
+font-size: 1.2em;}
+small{font-size:.7em;
+margin-left: -16em;
+color:grey;}
+.aides{margin-left: 15%;}
+.blue{background:rgb(63, 201, 250);}
+.aqua{background:rgb(63, 201, 250);}
+.article{padding: 0;
+margin: 0;}
+.article h2{font-size:1.3em;
+text-align:center;padding: 0;
+margin: 0;}
+.article h2.art{text-align:right;padding: 0;
+margin: 0;}
+.article h2.art img{mmargin-top: -1em;
+margin-right: 4.5em;}
+.art{padding: 0;
+margin: 0;}
+.navbar-nav li{margin-left: 5.1em;}
+a{color:white!important;}
+.navbar-nav li:hover{background:#F583E3;}
+img{max-width:100%;}
+.bandeau img{width:100%;
+
+}
+ .col-md-12, .col-md-4 {
+ padding-right: 0;
+ padding-left:0;}
+ .boderleft{border-left:1px solid grey;}
+.servicet{margin-top: -1.7em;
+margin-left: 3.5em;}
+.linka a{color:#3EC8F7 !important;
+margin-left: 13em;}
+h3{color:#3EC8F7 !important;}
+footer{text-align:center;
+font-weight:bold;}
+.col{padding-left:2.7em;}

@@ -1,0 +1,230 @@
+/***** Fonts *****/
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body{
+	margin: 0;
+	background: #E6E6E6;
+}
+h1, h2, h3, h4, h5, h6{
+	font-size: 1em;
+	margin: 0;
+}
+p{
+	margin: 0px;
+}
+ul{
+	list-style: none;
+	padding: 0;
+}
+a, a:visited, a:active, a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+}
+*{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.container{
+	width: 1000px;
+	margin: 10px auto;
+	background: #fff;
+	box-shadow: 1px 1px 15px #000;
+}
+/**************************************************************************************************/
+/***** HEADER ************************************************************** HEADER ***************/
+/**************************************************************************************************/
+
+/***** Title *****/
+#title .logo{
+	padding: 10px 15px 0 10px;
+}
+h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.5em;
+    font-style: italic;
+}
+header #title span{
+	padding: 50px;
+	font-size: .73em;
+	font-style: italic;
+	color: #F285E0;
+}
+/***** Help *****/
+header #help {
+	margin: 10px;
+}
+header #help p{
+	color: #3ECBFA;
+	font-size: 1.5em;
+}
+header #help .grey{
+	color: #b3b3b3;
+	font-style: italic;
+	font-size: 0.8em;
+}
+header #help .phone{
+	font-size: 1.1em;
+	font-weight: bold;
+	padding: 2px 0 0 45px;
+}
+header #help .bg-phone{
+	background: url('../img/aide.png') no-repeat;
+	height: 30px;
+}
+.account{
+	border-bottom: 1px solid #eee;
+	padding: 5px 0;
+}
+/***** My account *****/
+header #my-account{
+	background: #3ECBFA;
+	color: #eee;
+	text-align: center;
+}
+header #my-account .my-cart{
+	height: 57px;
+}
+header #my-account .article{
+	line-height: 55px;
+}
+/***** Navigation *****/
+
+header nav a{
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	padding: 0 48px;
+}
+header #my-account a:hover{
+	color: #F285E0;
+}
+header nav a:hover{
+	background: #F285E0;
+}
+header .col-12{
+	height: 40px;
+	background: #3ECBFA;
+}
+/**************************************************************************************************/
+/***** main-content ******************************************************** main-content**********/
+/**************************************************************************************************/
+#main-content .content{
+	margin: 10px 10px;
+}
+#main-content .payment,
+#main-content .services,
+#main-content .presentation{
+	padding: 0 15px;
+}
+#main-content .payment p,
+#main-content .services p,
+#main-content .presentation p{
+	font-size: .9em;
+}
+#main-content .presentation{
+	width: 50%;
+	border-left: 1px solid #b3b3b3;
+	border-right: 1px solid #b3b3b3;
+}
+#main-content .payment,
+#main-content .services{
+	width: 25%;
+}
+#main-content .title-blue{
+	color: #3ECBFA;
+	font-weight: bold;
+	padding: 0 0 10px;
+}
+#main-content .payment img{
+	margin: 20px 0;
+    width: 200px;
+}
+#main-content .services img{
+	width: 40px;
+}
+
+#main-content .services div{
+	height: 50px;
+}
+#main-content .services img+p{
+	padding: 14px 0 0 50px;
+}
+/*************************************/
+#main-content .good-plan,
+#main-content .favourites,
+#main-content .purpose{
+	width: 30%;
+	border-radius: 10px;
+	box-shadow: 1px 1px 15px #000;
+	margin: 10px 15px;
+	overflow: hidden;
+}
+#main-content .frame{
+	padding: 20px 0;
+}
+#main-content .frame a{
+	color: #3ECBFA;
+	font-weight: bold;
+	text-align: right;
+}
+#main-content .frame .title-frame{
+	background: #E6E6E6;
+	text-align: center;
+	font-weight: bold;
+	padding: 5px 0;
+}
+#main-content .frame img{
+	padding: 15px;
+}
+
+#main-content .frame p{
+	padding: 10px 0;
+	font-size: .9em;
+}
+#main-content .content .frame .more{
+	text-align: right;
+	padding-top: 0;
+	padding-right: 20px;
+}
+/**************************************************************************************************/
+/***** FOOTER ************************************************************** FOOTER ***************/
+/**************************************************************************************************/
+footer{
+	background: #3ECBFA;
+	color: #fff;
+}
+footer p{
+	text-align: center;
+}
+footer p a{
+	line-height: 40px;
+	font-size: 0.8em;
+}
+footer p a:hover{
+	color: #F285E0;
+}
+/*************************************************************************************************/
+/***** GRILLE **************************************************************** GRILLE ************/
+/*************************************************************************************************/
+.ligne{
+	clear: both;
+	float: inherit;
+}
+.col-1{width: 8.33%; float: left;}
+.col-2{width: 16.66%; float: left;}
+.col-3{width: 24.99%; float: left;}
+.col-4{width: 33.32%; float: left;}
+.col-5{width: 41.65%; float: left;}
+.col-6{width: 49.98%; float: left;}
+.col-7{width: 58.31%; float: left;}
+.col-8{width: 66.64%; float: left;}
+.col-9{width: 74.97%; float: left;}
+.col-10{width: 83.3%; float: left;}
+.col-11{width: 91.63%; float: left;}
+.col-12{width: 100%; float: left;}
+
+.floatright{float: right;}
+.floatleft{float: left;}

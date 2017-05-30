@@ -1,0 +1,14 @@
+section a{
+	display: block;
+	width: fit-content;/*pas supporter par le nav edge et pour les mobiles c'est une ? interogation. */
+	margin-top: 10px;
+	color: blue;
+}
+del{
+	color: red;
+}
+span{
+	/*display: inline-block;*/
+	vertical-align: -10px;
+	color: red;
+}

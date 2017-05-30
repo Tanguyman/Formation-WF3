@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Formulaires</title>
+		<link rel="stylesheet" href="formulaire.css" />
+	</head>
+	<body>
+		<form id="form" method="get" action="#" enctype="multipart/form-data">
+			<h2>Mon formulaire</h2>
+			<p>
+			<label for="pseudo">Pseudo</label>
+			<input type="text" id="pseudo" name="pseudoooooo" placeholder="Votre pseudo" required /><br />
+			</p>
+			
+			<p>
+			<label for="mdp">Mot de passe</label>
+			<input type="password" id="mdp" name="mdp" placeholder="Votre mdp" /><br />
+			</p>
+			
+			<p>
+			<label for="prenom">Prénom</label>
+			<input type="text" id="prenom" name="prenom" placeholder="Votre prénom" /><br />
+			</p>
+			
+			<p>
+			<label for="email">Email</label>
+			<input type="email" id="email" name="email" /><br />
+			</p>
+			
+			<p>
+			<label for="avatar">Avatar</label>
+			<input type="file" id="avatar" name="avatar" /><br />
+			</p>
+			
+			<p>
+			<label for="pays">Pays</label>
+			<select id="pays" name="pays">
+				<option disabled value="sel" selected>Votre pays</option>
+				<optgroup label="Amérique du sud">
+					<option value="br">Brésil</option>
+					<option value="ar">Argentine</option>
+					<option value="chi">Chili</option>
+				</optgroup>
+				<optgroup label="Europe">
+					<option value="fr">France</option>
+					<option value="it">Italie</option>
+					<option value="es">Espagne</option>
+				</optgroup>
+			</select><br />
+			</p>
+			
+			<p>
+			<label for="choix">Quels sont vos fruits préférés</label>
+			<input type="checkbox" name="choix" value="orange" checked /> Orange
+			<input type="checkbox" name="choix" value="fraise" /> Fraise
+			<input type="checkbox" name="choix" value="poire" /> Poire
+			<br />
+			</p>
+			
+			<p>
+			<label for="civilite">Civilité</label>
+			<input type="radio" name="civilite" value="f" checked />Femme
+			<input type="radio" name="civilite" value="h" />Homme
+			</p>
+			
+			<p>
+			<label for="ville">Ville</label>
+			<input type="text" id="ville" name="ville" list="france" /><br />
+			<datalist id="france">
+				<option>Paris</option>
+				<option>Lyon</option>
+				<option>Marseille</option>
+			</datalist>
+			</p>
+			
+			<p>
+			<label for="cp">Code Postal</label>
+			<input type="text" id="cp" name="cp" maxlength="5" pattern="[0-9]{5}" title="5 chiffres requis entre 0 et 9" />
+			</p>
+			
+			<p>
+			<label for="adress">Adresse</label>
+			<textarea id="adress" name="adresse" rows="5" cols="25" placeholder="Votre texte"></textarea>
+			</p>
+			<!-- Type date est pour le moment fonctionnel uniquement sur chrome ou opera -->
+			<p>
+			<label for="datedenaissance">Date de naissance</label>
+			<input type="date" name="datedenaissance" id="datedenaissance" placeholder="jj/mm/aaaa" /><br />
+			</p>
+			
+			<p>
+			<label for="telephone">Telephone</label>
+			<input type="tel" name="telephone" id="telephone" pattern="[0-9]{10}" title="10 chiffres ni plus ni moins" />
+			<!-- type="tel" permet de faire apparaitre le clavier chiffré sur les smartphones
+			Title="" permet de personnaliser le message d'erreur
+			-->
+			</p>
+			
+			<p>
+				<label for="recherche">Recherche</label>
+				<input type="text" pattern="[a-zA-Z0-9]+" title="caractères autorisés: a-z A-Z 0-9" />
+			</p>
+			<p>
+				<input type="hidden" id="cache" name="cache" value="ok" />
+			</p>
+			
+			<input type="submit" name="inscription" value="inscription" />
+			<input type="reset" name="efface" value="Recommencer" />
+		</form>
+	</body>
+</html>
+<!--
+method: la manière dont vont circuler les données: get (dans l'URL) Post (manière non visible)
+action: url de destination
+enctype: type d'encodage lors de l'envoi de fichiers
+label: etiquette de mon élément de formulaire
+	for : relié à l'id de l'element de formulaire
+textarea: zone de saisie - rows: vertical, cols: horizontal
+input: éléments de formulaire
+select: liste deroulante
+	id: relié au for du label
+	name: nom pour la future récuperation de donnée en php
+	type = text : champ de saisie
+	type = password : champ de saisie crypté
+	type = email : champ de saisie au format email (lettre@lettre)
+	type = submit : bouton d'envoi du formulaire
+	type = file : upload de fichiers
+	type = checkbox : cases à cocher
+	type = radio : cases à cocher uniques
+	type = hidden : champ caché
+	
+	selected : selectionne par defaut une option parmis celles proposées
+	required : permet de rendre le champ obligatoire
+	disabled : désactive la saisie
+	readonly : lecture seulement
+	placeholder : indication présaisie
+	maxlength : longueur maximale autorisée
+	pattern : expression régulière avec liste de caractères autorisés
+	title : permet de personnaliser le message d'erreur dans l'infobulle
+	datalist : contient la liste d'options en cas de suggestion demandée avec l'attribut list
+	
+
+
+
+
+
+
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

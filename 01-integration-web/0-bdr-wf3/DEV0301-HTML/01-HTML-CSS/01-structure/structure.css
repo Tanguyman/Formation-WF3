@@ -1,0 +1,28 @@
+/* ici je peux commenter */
+body{
+	background-color: pink;/* exemple d'appel de couleur par son nom */
+	/* margin:0; */
+}
+header{
+	background-color: #f98f32;/* exemple d'appel de couleur par son code hexadecimal */
+	height: 100px;
+}
+nav{
+	background-color: rgb(53,155,155);/* exemple d'appel de couleur par son code décimal RGB */
+	height: 30px;
+}
+section{
+	height: 500px;
+	background-color: #f2f220;	
+}
+footer{
+	height:100px;
+	background-color: #f98f32;
+}
+
+
+
+
+
+
+

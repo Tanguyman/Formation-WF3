@@ -1,0 +1,27 @@
+/****************** BALISE GENERIQUE, SETUP ******************/
+body{
+	background: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+.conteneur{
+	width: 92%;
+	margin: auto;
+	border: 2px red solid;
+}
+/* ***************** STRUCTURE ************************ */
+
+header{
+	background: #686A6A;
+	width: 100%;
+}
+/* ***************** MEDIA QUERIES ************************ */
+
+@media (min-width: 768px){
+
+}
+
+@media (min-width: 980px){
+	.conteneur{ max-width: 1200px } /*si écran > 1200px l'écran arrete de grandir*/
+}

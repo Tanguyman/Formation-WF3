@@ -1,0 +1,243 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	/* border: 1px solid black; */
+}
+
+.border-bottom {
+	border-bottom: 1px solid #D9D9D9;
+}
+
+.border-right {
+	border-right: 1px solid #D9D9D9;
+}
+
+.padding-bottom {
+	padding-bottom: 15px;
+}
+
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+}
+
+/* ************** Grille ************** */
+
+.col-1 {width: 8.333%;}
+.col-2 {width: 16.666%;}
+.col-3 {width: 24.999%;}
+.col-4 {width: 33.333%;}
+.col-5 {width: 41.666%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.333%;}
+.col-8 {width: 66.666%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.333%;}
+.col-11 {width: 91.666%;}
+.col-12 {width: 100%;}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+.row:after {
+	clear: both;
+}
+
+.row:after, .row:before {
+	display: table;
+	content: " ";
+}
+
+/* ************** Header ************** */
+
+h1, h2, header div.aideheader small {
+	font-style: italic;
+}
+div.aideheader small {
+	color: grey;
+}
+
+header h1 {
+	font-size: 3em;
+	margin: 0;
+	padding-top: 0;
+}
+
+header h2 {
+	font-size: 1em;
+	color: #F583E3;
+	margin: 0;
+}
+
+
+.panier {
+	background: #3FC9FA;
+	color: white;
+	text-align: center;
+}
+div.panier p {
+	border-bottom-color: white;
+	margin: 0;
+}
+
+.aideheader {
+	color: #3FC9FA;
+}
+
+div.aideheader p:first-child  {
+	font-size: 2em;
+}
+
+div.aideheader p {
+	margin: 0;
+}
+
+.z-index1 {
+	position: absolute;
+	z-index: 1;
+}
+
+.numeroheader {
+	padding-left: 50px;
+	font-weight: bold;
+}
+
+/* ********* Nav ********* */
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+	float: left;
+	text-align: center;
+}
+
+nav a li:hover {
+	background: #F583E3;
+}
+
+nav li {
+	background: #3FC9FA;
+	color: white;
+	padding: .4em 0;
+}
+
+
+/* ********* Fin Nav ********* */
+/* ************** Fin Header ************** */
+
+/* ************** Section ************** */
+
+/* ********* Sous section 1 ********* */
+
+.sous_section1 img {
+	width: 100%
+}
+
+
+/* ********* Sous section 2 ********* */
+
+.sous_section2 p, .sous_section2 h2 {
+	padding: 0 15px;
+}
+
+.sous_section2 p {
+	font-size: .8em;
+}
+
+.sous_section2 h2 {
+	color: #3FC9FA;
+	font-weight: bold;
+	font-size: 1.1em;
+	font-style: inherit;
+}
+
+.sous_section2 div.col-8 {
+	width: calc(66% - 2px)
+}
+
+/* ********* Sous section 3 ********* */
+
+table tr:first-child td:first-child {
+	font-weight: bold;
+	text-align: center;
+	background: #D9D9D9;
+}
+
+table {
+	margin: 20px; 
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+	border-bottom-left-radius: 1em;
+	border-bottom-right-radius: 1em;
+	border: 1px solid #D9D9D9;
+	overflow: hidden;
+}
+
+tr {
+	margin: 0;
+	padding: 0;
+}
+td {
+	margin: 0;
+	padding: 0 5px;
+}
+
+.right {
+	text-align: right;
+	padding: 0 25px;
+}
+
+.right a {
+	font-weight: bold;
+	color: #3FC9FA;
+	text-decoration: underline;
+}
+
+
+
+td.yolo {
+	width: 345px;
+
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+
+	border: 1px solid #D9D9D9;
+	
+}
+
+/* ************** Footer ************** */
+
+footer {
+	background: #3FC9FA;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+}
+
+footer li {
+	margin-left: 25px;
+}

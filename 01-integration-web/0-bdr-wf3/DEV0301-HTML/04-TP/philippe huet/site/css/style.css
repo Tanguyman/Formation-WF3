@@ -1,0 +1,100 @@
+html {
+	background: silver;
+	background: linear-gradient(silver, white);
+	height: 1500px;
+}
+body {
+	width: 1200px;
+	box-shadow: 0px 0px 15px 15px grey;
+	margin: 80px auto;
+}
+header {
+	background: white;
+	height: 80px;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+header .container1 {
+	background: white;
+	height: 70px;
+}
+header .container1 .col-md-4 h4 {
+	font-weight: bold;
+	font-family: arial;
+	font-style: italic;
+}
+header .container1 .col-md-4 p {
+	font-weight: bold;
+	font-family: arial;
+	font-style: italic;
+	color: purple;
+}
+header .container2 {
+	background: white;
+	height: 30px;
+}
+nav {
+	background: lightskyblue;
+	height: 40px;
+}
+nav .row {
+	margin-left: 320px;
+}
+nav a {
+	margin: 10px;
+	float: left;
+	color: white;
+}
+nav a:hover {
+	background: pink;
+}
+section {
+	background: white;
+	height: 1000px;
+}
+section .container1 {
+	height: 400px;
+}
+section .container2 {
+	height: 300px;
+}
+section .container3 {
+	height: 300px;
+}
+section .container2 .col-md-4 h4 {
+	font-weight: bold;
+	font-family: arial;
+	color: lightskyblue;
+}
+section .container2 .col-md-4 p {
+	font-weight: bold;
+	font-family: arial;
+}
+section .container3 .col-md-4 h4 {
+	font-weight: bold;
+	font-family: arial;
+	font-style: italic;
+	color: purple;
+}
+section .container3 .col-md-4 {
+	font-size: 2em;
+	font-weight: bold;
+	font-family: arial;
+}
+footer {
+	background: lightskyblue;
+	height: 40px;
+}
+footer .row {
+	margin-left: 130px;
+}
+footer a {
+	margin: 10px;
+	float: left;
+	color: white;
+}
+.inv {
+	clear: both;
+}

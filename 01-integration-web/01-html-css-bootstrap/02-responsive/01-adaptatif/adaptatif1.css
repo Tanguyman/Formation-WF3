@@ -1,0 +1,39 @@
+.zone-adaptative{
+	background-color: orange;
+	color: white;
+	padding: 10px;
+	width: 350px;
+}
+
+.zone-corps{
+	background-color: red;
+	float: left;
+	width: 100%;
+	border: 1px solid black;
+	margin: 1px;
+}
+
+@media (min-width: 768px){
+	.zone-adaptative{
+		width: 730px;
+	}
+	.zone-corps{
+	width: 30%;
+	}
+}
+
+@media (min-width: 992px){
+	.zone-adaptative{
+		width: 970px;
+	}
+}
+
+@media (min-width: 1700px){
+	.zone-adaptative{
+		width: 1700px;
+	}
+}
+
+.clear{
+	clear: both;
+}

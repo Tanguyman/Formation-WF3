@@ -1,0 +1,62 @@
+#container{
+	width: 900px;
+	min-height: 600px;
+	background-color: pink;
+	margin: 0 auto;
+	color: grey;
+	text-align: center;
+	vertical-align: middle;
+}
+
+header{
+	width: 100%;
+	min-height: 80px;
+	background-color: red;
+}
+
+.zone-gauche{
+	width: 20%;
+	height: 600px;
+	background-color: blue;
+}
+
+.zone-milieu{
+	width: 60%;
+	height: 600px;
+	background-color: grey; 
+}
+
+.zone-droite{
+	width: 20%;
+	height: 600px;
+	background-color: blue;
+}
+
+.zone-gauche, .zone-milieu, .zone-droite{
+	float: left;
+}
+
+.haut{
+	width: 540px;
+	height: 450px;
+	float: left;
+	background-color: red;
+}
+
+.z1, .z2, .z3, .z4, .z5{
+	width: 106px;
+	height: 448px;
+	float: left;
+	background-color: green;
+	border: 1px solid white;
+
+}
+
+.bas{
+	width: 540px;
+	height: 150px;
+	float: left;
+	background-color: yellow;
+}
+.clear{
+	clear: both;

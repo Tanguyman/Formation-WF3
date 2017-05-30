@@ -1,0 +1,48 @@
+/* flex-direction row & column*/
+.conteneur{
+	height: 550px;
+	border: 1px solid #000;
+}
+
+#flex{
+	height: 100%; /* IMPORTANT : définir la hauteur du conteneur =100% du parent */
+	display: flex;
+	flex-direction: row; /*row = axe primaire donc column axe secondaire*/
+	/* row (valeur par défaut)/ column / row-reverse*/
+	justify-content: space-around;
+	/* flex-start (valeur par défaut) / flex-end / center / space-between /space-around*/
+	align-items: center;
+	/* l'alignement dans l'axe secondaire
+	valeur par dédaut ??? : flex-start / center / flex-end / ??? stretch / baseline*/
+	flex-wrap: wrap;
+	/* choisir le type de gestion de retour à la ligne
+	nowrap (valeur par défaut) / wrap / wrap-deverse */
+}
+
+.item1{
+	background-color: green;
+	height: 200px;
+	width: 200px;
+	margin: 50px;
+	order: 2;
+	flex: 1;
+}
+.item2{
+	background-color: orange;
+	height: 200px;
+	width: 200px;
+	margin: 50px;
+	align-self: flex-end;
+	/*exception de positionnement pour un élément donné sur l'axe secondaire*/
+	order: 3;
+	flex: 2;
+}
+
+.item3{
+	background-color: red;
+	height: 200px;
+	width: 200px;
+	margin: 50px;
+	order: 1;
+	flex: 3;
+}

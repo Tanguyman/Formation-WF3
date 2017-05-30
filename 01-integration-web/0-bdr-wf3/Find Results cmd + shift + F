@@ -1,0 +1,417 @@
+Searching 12 files for "conteneur"
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/O5-position/inline-block.html:
+    6  	</head>
+    7  	<body>
+    8: 		<div id="conteneur">
+    9  			<div class="a">Zone A</div>
+   10  			<div class="b">Zone B</div>
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/O5-position/zoning/zoning2.html:
+    7  	</head>
+    8  	<body>
+    9: 		<div id="conteneur">
+   10  			<header>
+   11  				<span>Haut</span>
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/O5-position/zoning/zoning4b-zoning14.html:
+    9  		<div>
+   10  			<header>
+   11: 				<div class="conteneur">
+   12  					<span>Haut</span>
+   13  				</div>
+   14  			</header>
+   15  			<nav>
+   16: 				<div class="conteneur">			
+   17  					<span>Menu</span>
+   18  				</div>
+   ..
+   32  				</section>
+   33  			<footer>
+   34: 				<div class="conteneur">			
+   35  					<span><!-- Bas --></span>
+   36  				</div>
+
+5 matches across 3 files
+
+
+Searching 1 file for "conteneur"
+
+0 matches
+
+Searching 1 file for "conteneur"
+
+0 matches
+
+Searching 178 files for "conteneur"
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/00-partage/HtmlCss - Zoning/zoning1/zoning1.css:
+   19  	vertical-align: baseline;
+   20  }
+   21: .conteneur{
+   22  	width: 1000px;
+   23  	background: #40A497;
+   ..
+   45  /* En dessous de 1050px Ordinateur portable */
+   46  @media screen and (max-width: 1050px){
+   47: 	.conteneur{
+   48  		width: 750px;
+   49  	}
+   ..
+   51  /* En dessous de 780 Tablette */
+   52  @media screen and (max-width: 780px){
+   53: 	.conteneur{
+   54  		width: 550px;	
+   55  	}
+   ..
+   57  /* En dessous de 580 Smartphone */
+   58  @media screen and (max-width: 580px){
+   59: 	.conteneur{
+   60  		width: 100%;	
+   61  	}
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/00-partage/HtmlCss - Zoning/zoning1/zoning1.html:
+   13  	</head>
+   14  	<body>
+   15: 		<div class="conteneur">
+   16  			<header>
+   17  				<span>Haut</span>
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/00-partage/HtmlCss - Zoning/zoning10/zoning10.css:
+   19  	vertical-align: baseline;
+   20  }
+   21: .conteneur{
+   22  	width: 1000px;
+   23  	background: #40A497;
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/00-partage/HtmlCss - Zoning/zoning10/zoning10.html:
+   13  	</head>
+   14  	<body>
+   15: 		<div class="conteneur">
+   16  			<header>
+   17  				<span>Haut</span>
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/00-partage/HtmlCss - Zoning/zoning11/zoning11.css:
+   19  	vertical-align: baseline;
+   20  }
+   21: .conteneur{
+   22  	width: 1000px;
+   23  	background: #40A497;
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/00-partage/HtmlCss - Zoning/zoning11/zoning11.html:
+   13  	</head>
+   14  	<body>
+   15: 		<div class="conteneur">
+   16  			<header>
+   17  				<span>Haut</span>
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/00-partage/HtmlCss - Zoning/zoning12/zoning12.css:
+   19  	vertical-align: baseline;
+   20  }
+   21: .conteneur{
+   22  	width: 1000px;
+   23  	background: #40A497;
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/00-partage/HtmlCss - Zoning/zoning12/zoning12.html:
+   13  	</head>
+   14  	<body>
+   15: 		<div class="conteneur">
+   16  			<header>
+   17  				<span>Haut</span>
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/00-partage/HtmlCss - Zoning/zoning13/zoning13.css:
+   19  	vertical-align: baseline;
+   20  }
+   21: .conteneur{
+   22  	width: 1000px;
+   23  	background: #40A497;
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/00-partage/HtmlCss - Zoning/zoning13/zoning13.html:
+   13  	</head>
+   14  	<body>
+   15: 		<div class="conteneur">
+   16  			<header>
+   17  				<span>Haut</span>
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/00-partage/HtmlCss - Zoning/zoning14/zoning14.css:
+   19  	vertical-align: baseline;
+   20  }
+   21: .conteneur{
+   22  	width: 1000px;
+   23  	background: #40A497;
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/00-partage/HtmlCss - Zoning/zoning14/zoning14.html:
+   13  	</head>
+   14  	<body>
+   15: 		<div class="conteneur">
+   16  			<header>
+   17  				<span>Haut</span>
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/00-partage/HtmlCss - Zoning/zoning15/zoning15.css:
+   19  	vertical-align: baseline;
+   20  }
+   21: .conteneur{
+   22  	width: 1000px;
+   23  	background: #40A497;
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/00-partage/HtmlCss - Zoning/zoning15/zoning15.html:
+   13  	</head>
+   14  	<body>
+   15: 		<div class="conteneur">
+   16  			<header>
+   17  				<span>Haut</span>	
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/00-partage/HtmlCss - Zoning/zoning2/zoning2.css:
+   19  	vertical-align: baseline;
+   20  }
+   21: .conteneur{
+   22  	width: 1000px;
+   23  	background: #40A497;
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/00-partage/HtmlCss - Zoning/zoning2/zoning2.html:
+   13  	</head>
+   14  	<body>
+   15: 		<div class="conteneur">
+   16  			<header>
+   17  				<span>Haut</span>
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/00-partage/HtmlCss - Zoning/zoning3/zoning3.css:
+   19  	vertical-align: baseline;
+   20  }
+   21: .conteneur{
+   22  	width: 1000px;
+   23  	background: #40A497;
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/00-partage/HtmlCss - Zoning/zoning3/zoning3.html:
+   13  	</head>
+   14  	<body>
+   15: 		<div class="conteneur">
+   16  			<header>
+   17  				<span>Haut</span>
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/00-partage/HtmlCss - Zoning/zoning4/zoning4.css:
+   19  	vertical-align: baseline;
+   20  }
+   21: .conteneur{
+   22  	width: 1000px;
+   23  	background: #40A497;
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/00-partage/HtmlCss - Zoning/zoning4/zoning4.html:
+   13  	</head>
+   14  	<body>
+   15: 		<div class="conteneur">
+   16  			<header>
+   17  				<span>Haut</span>
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/00-partage/HtmlCss - Zoning/zoning5/zoning5.css:
+   19  	vertical-align: baseline;
+   20  }
+   21: .conteneur{
+   22  	width: 1000px;
+   23  	background: #40A497;
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/00-partage/HtmlCss - Zoning/zoning5/zoning5.html:
+   13  	</head>
+   14  	<body>
+   15: 		<div class="conteneur">
+   16  			<header>
+   17  				<span>Haut</span>
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/00-partage/HtmlCss - Zoning/zoning6/zoning6.css:
+   19  	vertical-align: baseline;
+   20  }
+   21: .conteneur{
+   22  	width: 1000px;
+   23  	background: #40A497;
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/00-partage/HtmlCss - Zoning/zoning6/zoning6.html:
+   13  	</head>
+   14  	<body>
+   15: 		<div class="conteneur">
+   16  			<header>
+   17  				<span>Haut</span>
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/00-partage/HtmlCss - Zoning/zoning7/zoning7.css:
+   19  	vertical-align: baseline;
+   20  }
+   21: .conteneur{
+   22  	width: 1000px;
+   23  	background: #40A497;
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/00-partage/HtmlCss - Zoning/zoning7/zoning7.html:
+   13  	</head>
+   14  	<body>
+   15: 		<div class="conteneur">
+   16  			<header>
+   17  				<span>Haut</span>	
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/00-partage/HtmlCss - Zoning/zoning8/zoning8.css:
+   19  	vertical-align: baseline;
+   20  }
+   21: .conteneur{
+   22  	width: 1000px;
+   23  	background: #40A497;
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/00-partage/HtmlCss - Zoning/zoning8/zoning8.html:
+   13  	</head>
+   14  	<body>
+   15: 		<div class="conteneur">
+   16  			<header>
+   17  				<span>Haut</span>
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/00-partage/HtmlCss - Zoning/zoning9/zoning9.css:
+   19  	vertical-align: baseline;
+   20  }
+   21: .conteneur{
+   22  	width: 1000px;
+   23  	background: #40A497;
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/00-partage/HtmlCss - Zoning/zoning9/zoning9.html:
+   13  	</head>
+   14  	<body>
+   15: 		<div class="conteneur">
+   16  			<header>
+   17  				<span>Haut</span>
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/01-structure/structure.html:
+   66  				Section -> div 2
+   67  			</div>
+   68: 			<!--est un conteneur générique permettant d'organiser le contenu sans représenter rien de particulier.
+   69  			Il doit uniquemt etre utilisé lorsque aucun autre élément sémantique n'est approprié -->
+   70  			<!-- -->
+   ..
+   72  			<span style="color:red;">Section -> span Contenu</span>
+   73  			<span style="color:blue;">Section -> span 2 Contenu</span>
+   74: 			<!-- c'est un conteneur générique pour les contenus textuels. Il ne rprésente rien de particulier. Il doit etre uniquement utilisé lorsque aucun autre élément SEMANTIQUE ne peut etre utilisé -->
+   75  		</section>
+   76  		
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/O5-position/flex/flex.css:
+    1  /* flex-direction row & column*/
+    2: .conteneur{
+    3  	height: 550px;
+    4  	border: 1px solid #000;
+    .
+    6  
+    7  #flex{
+    8: 	height: 100%; /* IMPORTANT : définir la hauteur du conteneur =100% du parent */
+    9  	display: flex;
+   10  	flex-direction: row; /*row = axe primaire donc column axe secondaire*/
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/O5-position/flex/flex.html:
+    7  </head>
+    8  <body>
+    9: 	<div class="conteneur">
+   10  		<div id="flex">
+   11  			<div class="item1">Item 1</div>
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/O5-position/inline-block.css:
+    9  }
+   10  
+   11: #conteneur{
+   12  	width: 960px;
+   13  	background-color: #F4C400;
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/O5-position/inline-block.html:
+    6  	</head>
+    7  	<body>
+    8: 		<div id="conteneur">
+    9  			<div class="a">Zone A</div>
+   10  			<div class="b">Zone B</div>
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/O5-position/zoning/zoning.css:
+    9  }
+   10  
+   11: #conteneur{
+   12  	width: 1000px;
+   13  	background-color: green/*#40A497*/;
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/O5-position/zoning/zoning.html:
+    7  	</head>
+    8  	<body>
+    9: 		<div id="conteneur">
+   10  			<header>
+   11  				<span>Haut</span>
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/O5-position/zoning/zoning1.css:
+    9  }
+   10  
+   11: #conteneur{
+   12  	width: 1000px;
+   13  	background-color: green/*#40A497*/;
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/O5-position/zoning/zoning1.html:
+    7  	</head>
+    8  	<body>
+    9: 		<div id="conteneur">
+   10  			<header>
+   11  				<span>Haut</span>
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/O5-position/zoning/zoning2.css:
+    9  }
+   10  
+   11: #conteneur{
+   12  	width: 1000px;
+   13  	background-color: green/*#40A497*/;
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/O5-position/zoning/zoning2.html:
+    7  	</head>
+    8  	<body>
+    9: 		<div id="conteneur">
+   10  			<header>
+   11  				<span>Haut</span>
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/O5-position/zoning/zoning3-zoning8.css:
+    9  }
+   10  
+   11: #conteneur{
+   12  	width: 1000px;
+   13  	background-color: green/*#40A497*/;
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/O5-position/zoning/zoning3-zoning8.html:
+    7  	</head>
+    8  	<body>
+    9: 		<div id="conteneur">
+   10  			<header>
+   11  				<span>Haut</span>
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/O5-position/zoning/zoning4-zoning14.css:
+    9  }
+   10  
+   11: #conteneur{
+   12  	width: 900px;
+   13  	background-color: green/*#40A497*/;
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/O5-position/zoning/zoning4-zoning14.html:
+    7  	</head>
+    8  	<body>
+    9: 		<div id="conteneur">
+   10  			<header>
+   11  				<span>Haut</span>
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/O5-position/zoning/zoning4b-zoning14.css:
+    9  }
+   10  
+   11: .conteneur{
+   12  	width: 600px;
+   13  	background-color: green/*#40A497*/;
+
+/Users/yosemite_tanguy/Documents/_TANGUY_/# PARTIES PRENANTES/PP PRO/FOURNISSEURS PRESTATAIRES Pro/WEB FORCE 3/@ Ref WF3/SPECIFIQUE-WF3/COURS/html-css-Tanguy/O5-position/zoning/zoning4b-zoning14.html:
+    9  		<div>
+   10  			<header>
+   11: 				<div class="conteneur">
+   12  					<span>Haut</span>
+   13  				</div>
+   14  			</header>
+   15  			<nav>
+   16: 				<div class="conteneur">			
+   17  					<span>Menu</span>
+   18  				</div>
+   ..
+   32  				</section>
+   33  			<footer>
+   34: 				<div class="conteneur">			
+   35  					<span><!-- Bas --></span>
+   36  				</div>
+
+54 matches across 47 files

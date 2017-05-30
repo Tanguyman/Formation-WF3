@@ -1,0 +1,68 @@
+/* Nous cassons (reset) l'effet d'héritage pour toutes les balises suceptible d'être concernées */
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,b, u, i, center, dl, dt, dd, ol, ul, li,fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+}
+.conteneur{
+	width: 1000px;
+	margin: 0 auto;
+	color: white;
+}
+header{
+	min-height: 80px;
+	background: #a4409a;
+}
+nav{
+	min-height: 30px;
+	background: yellow;
+}
+section{
+	background: #89297c;
+}
+.a, .c{
+	width: 25%;
+	min-height: 200px;
+	float: left;
+}
+.b, .e, .f{
+	width: 50%;
+	min-height: 200px;
+	float: left;
+}
+.d{ 
+	width: 100%;
+	min-height: 200px;
+	float: left;
+}
+.clear{
+	clear: both;
+}
+.a{ background: red;}
+.b{ background: blue;}
+.c{ background: green;}
+.d{ background: pink;}
+.e{ background: purple;}
+.f{ background: brown;}
+footer{
+	min-height: 60px;
+	background: #e80b28;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

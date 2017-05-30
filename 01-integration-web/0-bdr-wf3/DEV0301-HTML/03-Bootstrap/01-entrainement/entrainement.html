@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Entrainement Bootstrap</title>
+		<link rel="stylesheet" href="../distrib/css/bootstrap.css" />
+		<link rel="stylesheet" href="../distrib/css/style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<h2>Glyphicon</h2>
+			<span class="glyphicon glyphicon-euro"></span>
+			<hr />
+			<h2>Menu</h2>
+			<span>Voir en haut de page</span>
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+			  <div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+				  <a class="navbar-brand" href="#">Brand</a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				  <ul class="nav navbar-nav">
+					<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+					<li><a href="#">Link</a></li>
+					<li class="dropdown">
+					  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+					  <ul class="dropdown-menu">
+						<li><a href="#">Action</a></li>
+						<li><a href="#">Another action</a></li>
+						<li><a href="#">Something else here</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a href="#">Separated link</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a href="#">One more separated link</a></li>
+					  </ul>
+					</li>
+				  </ul>
+				  <form class="navbar-form navbar-left">
+					<div class="form-group">
+					  <input type="text" class="form-control" placeholder="Search">
+					</div>
+					<button type="submit" class="btn btn-default">Submit</button>
+				  </form>
+				  <ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Link</a></li>
+					<li class="dropdown">
+					  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+					  <ul class="dropdown-menu">
+						<li><a href="#">Action</a></li>
+						<li><a href="#">Another action</a></li>
+						<li><a href="#">Something else here</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a href="#">Separated link</a></li>
+					  </ul>
+					</li>
+				  </ul>
+				</div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+			<hr />
+			<h2>Systeme de grille</h2>
+			<div class="row">
+				<div class="col-md-6 border">moitié</div>
+				<div class="col-md-6 border">moitié</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10 col-lg-offset-1 border">col-md-10</div>
+			</div>
+			<div class="row">
+				<div class="col-md-2 border">col-md-2</div>
+			</div>
+<!--
+la classe col-md-1:
+- col veut dire colonne (mot invariable dans Bootstrap)
+
+- md veut dire middle ces lettres correspondent au comportement des emplacements suivant la largeur de la fenetre.
+Ce mot variable peut prendre les valeurs suivantes:
+xs, sm, md et lg
+
+- 1 veut dire 1 emplacements
+Cette partie variable peut prendre les valeurs 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ou 12
+
+la classe row
+Cette classe permet d"e definir une nouvelle ligne
+
+la classe col-md-offset-1
+cette classe permet de creer une marge à gauche d'un emplacement
+
+-->
+			<h2>Class Row</h2>
+			<div class="row">
+				<div class="border col-md-12">12 colonnes</div>
+				<div class="border col-md-4">4 colonnes</div>
+				<div class="border col-md-8">8 colonnes</div>
+			</div>
+			<div class="row">
+				<div class="border col-md-8">8 colonnes</div>
+			</div>
+			<div class="row">
+				<div class="border col-md-4">4 colonnes</div>
+				<div class="border col-md-8">8 colonnes</div>
+			</div>
+			<h2>Row imbriquées</h2>
+			
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1 border">
+					<b>Niveau 1 - 10 colonnes</b>
+					<div class="row">
+						<div class="col-md-8 border">Niveau 2 - 8 colonnes</div>
+						<div class="col-md-4 border">Niveau 2 - 4 colonnes</div>
+					</div>
+				</div>
+			</div>
+			
+			<h2>Exercice de grille</h2>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1 red">ligne1</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 green">ligne 2</div>
+			</div>
+			<div class="row">
+				<div class="col-md-2 col-md-offset-5 blue">ligne 3</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 red">ligne 4</div>
+				<div class="col-md-3 green">ligne 4</div>
+				<div class="col-md-3 yellow">ligne 4</div>
+				<div class="col-md-3 orange">ligne 4</div>
+			</div>
+			<div class="row">
+				<div class="blue col-md-12">ligne 5</div>
+			</div>
+			<div class="row">
+				<div class="col-md-5 col-md-offset-2 red">ligne 6</div>
+				<div class="col-md-3 col-md-offset-2 green">ligne 6</div>
+			</div>
+			
+		</div>
+		
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../distrib/js/bootstrap.min.js"></script>
+	</body>
+</html>

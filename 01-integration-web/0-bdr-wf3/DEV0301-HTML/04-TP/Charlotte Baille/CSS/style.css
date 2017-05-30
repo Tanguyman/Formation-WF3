@@ -1,0 +1,242 @@
+body{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	font-size:0.8em;
+}
+.container{
+	max-width:1000px;
+	margin:0 auto;
+}
+
+.boxshadow{
+	box-shadow: 2px 2px 6px 6px rgba(217,217,217,0.8);
+}
+
+.borderright{
+	border-right:1px solid #d9d9d9;
+}
+.textjustify{
+	text-align:justify;
+}
+.textleft{
+	text-align:left;
+}
+.textright{
+	text-align:right;
+}
+.textcenter{
+	text-align:center;
+}
+.margin0{
+	margin:0;
+}
+.borderbottom{
+	border-bottom:1px solid white;
+}
+.lineheight{
+	line-height:10%;
+}
+
+.floatleft{
+	float:left;
+}
+.clear{
+	clear:both;
+}
+.italic{font-style:italic;}
+
+
+/*************************************COLORS*******************************************/
+
+
+.bold{
+	font-weight:bold;
+}
+.rose{
+	background:#f52a74;
+}
+
+.white{
+	background:#f7f7f7;
+}
+.whitecolor{
+	color:#f7f7f7;
+}
+.blue{
+	background:#3ecbfa;
+}
+.bluecolor{
+	color:#3ecbfa;
+}
+.red{
+	background:red;
+}
+.yellow{
+	background:yellow;
+}
+.griscolor{
+	color:#9c9c9c;
+}
+.gris{
+	background:#d9d9d9;
+}
+
+/**********************************header***************************************/
+
+
+header .horiz_list li, .horiz_list a {
+    float: left;
+    margin-left: 50px;
+    padding: 5px 15px;
+	color:white;
+}
+
+header a:link, a:visited, h1 a:link {
+	text-decoration:none; 
+	color:black;
+}
+
+h1{
+	padding:0;
+	margin:0;
+}
+
+header h2{
+	margin-top:2px;
+	margin-bottom:5px;
+}
+
+#aide{
+	position:absolute;
+}
+h4{
+	position:absolute;
+	top:-13px;
+	left:55px;
+}
+
+/**********************************NAV*************************************************/
+
+nav{
+	display:inline-block;
+}
+
+a:visited, a:active, a:hover{
+	text-decoration:none;
+	color:#3ecbfa;
+}
+
+img{
+	max-width:100%;
+}
+
+/****************************************SECTION1**************************************/
+.bordershadow{
+	border:2px solid rgb(217,217,217);
+    box-shadow: 2px 2px 6px 6px rgba(217,217,217,1);
+	border-radius: 20px;
+}
+
+
+#section1 .col-4{width:30%;}
+
+.col-3b{
+	width:24.94%; 
+	float:left;
+	
+}
+.col-6b{
+	width:48.90%; 
+	float:left;	
+}
+.paddingleft{
+	padding-left:17px;
+	padding-left:15px;
+}
+
+.wrap{
+	word-wrap: break-word;
+}
+
+.marginleft{
+	margin-top:10px;
+	margin-left:10px;
+	margin-bottom:10px;
+	margin-right:10px;
+}
+
+.marginleft1{
+	margin:9px 10px 27px 22px;
+}
+
+.padding{
+	padding-top:20px;
+}
+
+.titreh3{
+	margin:-4px -4px 0 -5;
+	padding:12px 0 8px 0;
+}
+/*******************************************COLONNES**************************************/
+
+.col-marge-1x{margin-left:11%;}
+.col-marge-1x2{margin-left:5.66%;}
+
+.col-1{width:8.33%; float:left;}
+.col-2{width:16.66%; float:left;}
+.col-3{width:24.99%; float:left;}
+.col-4{width:33.32%; float:left;}
+.col-5{width:41.65%; float:left;}
+.col-6{width:50%; float:left;}
+.col-7{width:58.31%; float:left;}
+.col-8{width:66.64%; float:left;}
+.col-9{width:74.97%; float:left;}
+.col-10{width:83.3%; float:left;}
+.col-11{width:91.63%; float:left;}
+.col-12{width:100%; float:left;}
+
+.col-marge-1{margin-left:8.33%}
+.col-marge-2{margin-left:16.66%}
+.col-marge-3{margin-left:24.99%}
+.col-marge-4{margin-left:33.32%}
+.col-marge-5{margin-left:41.65%}
+.col-marge-6{margin-left:50%}
+.col-marge-7{margin-left:58.31%}
+.col-marge-8{margin-left:66.64%}
+.col-marge-9{margin-left:74.97%}
+.col-marge-10{margin-left:83.3%}
+.col-marge-11{margin-left:91.63%}
+	
+@media screen and (max-width:768px){
+	.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{width:100% !important;}
+	
+	.col-marge-1,.col-marge-2,.col-marge-3,.col-marge-4,.col-marge-5,.col-marge-6,.col-marge-7,.col-marge-8,.col-marge-9,.col-marge-10,.col-marge-11{margin-left:0 !important;}
+	
+	img{padding-top:0 !important;}
+}
+
+
+/*************************************footer**************************/
+
+.mod_list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer .horiz_list li, .horiz_list a {
+    float: left;
+    margin-left: 5px;
+    padding: 5px 2px;
+	color:white;
+}
+
+.horiz_list a:hover{
+	background-color:#f285e0;
+}
+
+footer li:first-child{
+	margin-left:50px;
+}

@@ -1,0 +1,13 @@
+.fixe{
+	width: 800px;
+	border: 2px solid blue ;
+}
+
+.variable{
+	width: 80%;
+	border: 2px solid red ;
+}
+
+div{
+	font-size: 24px;
+}

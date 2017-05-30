@@ -1,0 +1,40 @@
+@font-face { /* utilisation d'une police css3 à l'aide d'une url */
+	font-family: "Cabin";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Cabin Regular"), local("Cabin-Regular"), url("https://themes.googleusercontent.com/static/fonts/cabin/v4/JEgmtEDzc-IH8jBshQXrYA.woff") format("woff");
+}
+@import url('https://fonts.googleapis.com/css?family=Reem+Kufi');
+@font-face { /* utilisation d'une police css3  à l'aide de fichier */
+    font-family: 'folksbold';
+    src: url('police/Folks-Bold-webfont.eot');
+    src: url('police/Folks-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('police/Folks-Bold-webfont.woff') format('woff'),
+         url('police/Folks-Bold-webfont.ttf') format('truetype'),
+         url('police/Folks-Bold-webfont.svg#folksbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+	font-family: 'folksbold';
+}
+hr{
+	border: 0 solid;
+	border-top: 5px solid red;
+}
+h1{
+	font-size:50px;
+}
+h1, h2, h3, h4{
+	font-family: 'Reem Kufi', sans-serif;
+	color: #336699;
+	letter-spacing: 3px;
+}
+
+
+
+
+
+
+
+

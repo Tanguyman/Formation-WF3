@@ -1,0 +1,13 @@
+.d1, .d2, .d3,.d4,.d5,.d6,.d7,.d8,.d9,.d10{
+	width: 170px;
+	height: 170px;
+	text-align: center;
+	border: 1px solid;
+	float: left;
+}
+#conteneur{
+	border: 2px solid #ff0000;
+}
+.clear{
+	clear: both;
+}

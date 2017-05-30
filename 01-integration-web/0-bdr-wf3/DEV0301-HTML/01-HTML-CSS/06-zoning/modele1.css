@@ -1,0 +1,31 @@
+#conteneur{
+	background: #336699;
+	width: 800px;
+	margin: 0 auto;
+	/* border: 2px solid; */
+}
+header{
+	background: #ff5555;
+	width: 800px;
+	height: 70px;
+}
+.gauche{
+	background: #5585ff;
+	width: 150px;
+	height: 530px;
+	float: left;
+}
+.milieu{
+	background: #55d87c;
+	width: 650px;
+	height: 530px;
+	float: left;
+}
+.clear{ clear: both;}
+
+
+
+
+
+
+

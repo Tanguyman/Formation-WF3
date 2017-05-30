@@ -1,0 +1,160 @@
+/* ***************************
+
+Universal
+
+***************************  */
+
+a {
+  color: white !important;
+}
+
+
+body {
+
+}
+
+.black a {
+  color: black !important;
+}
+
+.par-inline a {
+  color: black !important;
+  margin: 200px;
+}
+
+.par-inline a:hover {
+  color: red !important;
+  margin: 200px;
+}
+
+
+
+/* ***************************
+
+Top Icon color
+
+***************************  */
+
+.MonCompte,
+.MonArticle{
+  background-color: #3DCBFD;
+}
+
+.MonCompte {
+  margin-bottom: -9px;
+  margin-top: 20px;
+}
+
+.logo-pic {
+  margin-top: 32px;
+}
+
+.articlepan {
+
+
+}
+
+/* ***************************
+
+ Navigation
+
+***************************  */
+
+.custom-nav {
+  background: #3DCBFD;
+  border-style: none;
+
+
+}
+
+.nav-li-marg-right {
+  margin-right: 110px;
+}
+
+
+ul.nav a:hover {
+   background-color: #FB7FDE !important;
+  }
+
+
+  /* ***************************
+
+   Banner Pic
+
+  ***************************  */
+
+.banner-pic {
+  width: 100%;
+
+}
+
+.banner-pic-marge {
+  margin-top: -29px;
+}
+
+
+
+  /* ***************************
+
+  Start of three column article
+
+  ***************************  */
+.border-right {
+  border-right: 1px solid;
+}
+
+.three-column-article-marg-top {
+  margin-top: 20px;
+}
+
+.par-inline {
+  display: inline;
+  margin-left: 5px;
+}
+
+.Camion-pic,
+.echange-pic {
+  display: inline;
+}
+
+.small-icon-marge {
+  margin-bottom: 10px;
+}
+
+/* ***************************
+Row with products
+***************************  */
+
+.row-products-marge {
+  margin: 40px 0;
+}
+.borderShd {
+  border: 1px solid #D8D8D8;
+  min-height: 200px;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(216,216,216,1);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(216,216,216,1);
+  box-shadow: 5px 5px 5px 0px rgba(216,216,216,1);
+}
+.background-gray{
+  background-color: #D8D8D8;
+  margin-top: 0;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+
+
+/* ***************************
+
+  Footer
+
+***************************  */
+
+.footer-color {
+
+  background-color: #3DCBFD;
+
+
+}

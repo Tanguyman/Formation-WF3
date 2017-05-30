@@ -1,0 +1,27 @@
+/*font
+-
+Super propriété de police. Combine : 
+font-weight, font-style, font-size, font-variant, font-family.*/
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#conteneur{
+	width: 960px;
+	background-color: #F4C400;
+	margin: 0 auto; /*50 = top*/
+	padding: 30px;
+}
+
+.a, .b{
+	width: 450px;
+	height: 250px;
+	border: 2px solid;
+	margin: 0px 10px 0px 10px;
+	display: inline-block;
+}
+
+.a {width: 30%}
+.b {width: 60%}

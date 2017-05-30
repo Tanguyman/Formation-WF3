@@ -1,0 +1,29 @@
+body{ 
+	background: #72a0da;
+	line-height: 100px;
+}
+
+a:link{ /* Lien dans son état par defaut */
+	color: orange;
+	text-decoration: none;
+	/* cursor: default; */
+	transition: ;
+}
+a:visited{ /* L'état du lien lorsque la page cible a déja été visitée */
+	color: orange;
+}
+a:hover{ /* l'état du lien au moment ou il est survolé par le curseur de la souris */
+	color: red;
+}
+a:active{ /* l'état du lien au moment du clic */
+	color:white;
+}
+span.span{
+	display: inline-block;
+}
+.span{
+	vertical-align: -20px;
+}
+img{
+	vertical-align: baseline;
+}

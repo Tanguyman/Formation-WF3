@@ -1,0 +1,21 @@
+table{
+/*	border: 1px solid;*/
+	border-collapse: collapse; /*enlève double ligne*/ 
+	width: 700px;
+	margin: 0 auto;
+}
+
+th{
+	background: pink;
+}
+
+#pays{
+	background-color: grey;
+/*	width: 25%;*/
+	
+}
+
+tr{
+	margin: 0 auto;
+	background-color: aqua;
+}

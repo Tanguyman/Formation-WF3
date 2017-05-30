@@ -1,0 +1,145 @@
+/* Nous cassons (reset) l'effet d'héritage pour toutes les balises suceptible d'être concernées */
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,b, u, i, center, dl, dt, dd, ol, ul, li,fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+}
+/* =========== Balises Generales ========== */
+body{
+	font-family: Arial, sans-serif;
+	background: url('../img/background.png');
+}
+header span, h1, h2{
+	font-family: 'Courgette', cursive;
+	color: #EB43A3;
+}
+.clear{
+	clear: both;
+}
+
+/* ============ STRUCTURE =============== */
+header{
+	height: 70px;
+	border: 1px solid black;/*TMP*/
+	background-color: #C55394;
+}
+footer{
+	width: 100%;
+	height: 50px;
+	border: 1px solid black;/*TMP*/
+	background-color: #C55394;
+	position: fixed;
+	bottom: 0px;	
+}
+
+.container{
+	border: 1px solid black;/*TMP*/
+	width: 1000px;
+	background-color: white;
+	margin: auto;
+	margin-top: 150px;
+	margin-bottom: 40px;
+	padding: 50px 25px;
+}
+	
+	.arcenciel{
+		width: 1000px;
+		/*height: 250px;*/
+		margin: 0 auto;	
+	}
+		.arcenciel img, .arcenciel h2{
+			position: absolute;
+		}
+		.arcenciel img{
+			/*width: 500px;*/
+			height: 150px;
+
+		}
+.noslicornes, .noustrouver{
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+/* =========== structure bloc ========== */
+
+/*nos licornes*/
+figure{
+	width: 240px;
+	position: relative;
+	float: left;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+figure img{
+	display: block;
+	width: 240px;
+}
+
+figcaption{
+	position: absolute;
+	background: rgba(0,0,0,0.75);
+	bottom: 0px;
+	width: 240px;
+	color: #fff;
+	text-align: center;
+	padding: 15px 0;
+}
+
+/*============== TEXT ===============*/
+/*MENU*/
+	header span{
+		color: white;
+		font-size: 45px;
+		float: left;
+	}
+	nav{
+		float: right;
+		width: 600px;
+		height: 70px;
+	}
+	nav a{
+		/*float: right;*/
+		width: 200px;
+		height: 70px;
+		transition: 0.5s;
+		text-decoration: none;
+		color: white;
+		float: right;
+	}
+	nav a:hover{
+		background: #EB43A3;
+	}
+
+
+/*FOOTER*/
+footer p{
+	text-align: right;
+	margin-top: 15px;
+	margin-right: 10px;
+	color: #E577B5;
+}
+/*
+Polices par défaut : 
+	font-family: Arial, sans-serif; ok
+
+Police des titres :
+	font-family: 'Courgette', cursive; ok
+	
+Etoiles dans les titres : 
+    FontAwesome 4.6 => fa-star-o
+
+Couleurs : 
+	barre de menus : #C55394 ok
+	hover menu : #EB43A3 ok
+    titre h1 : #C55394 
+    autres titres : #EB43A3 ok
+	footer : #E577B5
+	noir : #333
+	blanc : #FFF
+*/	

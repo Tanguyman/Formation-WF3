@@ -1,0 +1,9 @@
+body{
+	padding-top: 100px;
+}
+.border{
+	border: 1px solid;
+}
+.container{
+	width: 80%
+}

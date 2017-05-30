@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	color: red; /*donne la couleur au txt et au bordure*/
+	/*box-sizing: border-box; regarder la définition. 
+	s'applique sur la section/width */
+}
+
+#conteneur{
+	width: 1000px;
+	min-height: 600px;
+	background-color: green/*#40A497*/;
+	margin: 0 auto;
+	text-align: center;
+}
+
+header{
+	background-color: blue/*#4A409A*/;
+	min-height: 80px;
+}
+
+/*
+nav span{
+	color: blue;
+}
+le selecteur universelle * est plus fort que nav, d'où le nav span
+*/
+
+nav{
+	min-height: 30px;
+	background-color: yellow;
+}
+
+section{
+	background-color: pink; /*#89297c*/
+	/*width: 50%;
+	padding: 20px;
+	border: 20px solid;*/ /*la proriété border attend 2 valeurs */
+	text-align: left;
+	width: 1000px;
+	min-height: 500px;
+	padding: 10px 0px;
+}
+
+.abcd{
+	margin: 0 auto;
+	width: 920px;
+	height: 500px;
+	background-color: yellow;
+}
+
+.a, .b, .c, .d{
+	float: left;
+	width: 458px;
+	min-height: 248px;
+	border: 1px solid white;
+}
+
+.a{
+	background-color: red;
+}
+
+.a1, .a2, .a3, .a4{
+	float: left;
+	width: 227px;
+	min-height: 122px;
+	/*border: 1px solid white;*/
+	background-color: black;
+	border: 1px solid white;
+}
+
+p{
+	padding: 50px 100px;
+}
+
+.b{
+	background-color: red;
+	color: blue;
+}
+.c{
+	background-color: yellow;
+}
+.d{
+	background-color: purple;
+}
+
+
+.clear{
+	clear: both;
+	/* penser à nettoyer le flux de float qd je l'utilise pour éviter "le bug".
+	C'est à dire qu'il passe par dessus la Box du dessous (footer)
+	Surtout si il n'y a pas de txt dans la boite */  
+}
+
+footer{
+	min-height: 60px;
+	background-color: blue /*#124578*/;
+}

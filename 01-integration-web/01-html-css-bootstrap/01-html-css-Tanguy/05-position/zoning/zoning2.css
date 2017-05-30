@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	color: red; /*donne la couleur au txt et au bordure*/
+	/*box-sizing: border-box; regarder la définition. 
+	s'applique sur la section/width */
+}
+
+#conteneur{
+	width: 1000px;
+	background-color: green/*#40A497*/;
+	margin: 0 auto;
+	text-align: center;
+}
+
+header{
+	background-color: blue/*#4A409A*/;
+	min-height: 80px;
+}
+
+/*
+nav span{
+	color: blue;
+}
+le selecteur universelle * est plus fort que nav, d'où le nav span
+*/
+
+nav{
+	min-height: 30px;
+	background-color: yellow;
+}
+
+section{
+	min-height: 500px;
+	background-color: purple /*#89297c*/;
+	/*width: 50%;
+	padding: 20px;
+	border: 20px solid;*/ /*la proriété border attend 2 valeurs */
+	margin: 20px;
+	text-align: left;
+}
+
+.a, .b{
+	float: left;
+	min-height: 500px;
+}
+
+.a{
+	background-color: red;
+	color: blue;
+	width: 240px; /*width: 25%;*/
+}
+
+.b{
+	background-color: blue;
+	width: 720px; /*width: 75%*/
+}
+
+.clear{
+	clear: both; /*penser à nettoyer le flux de float qd je l'utilise pour éviter les bugs*/  
+}
+footer{
+	min-height: 60px;
+	background-color: blue/*#124578*/;
+}

@@ -1,0 +1,63 @@
+.conteneur{
+	width: 1000px;
+	margin: 0 auto;
+}
+/* *******haut******** */
+header{
+	height: 80px;
+	background: #a4409a;
+}
+nav{
+	height: 30px;
+	background: yellow;
+}
+/* *******milieu********
+************************** */
+.gauche{
+	width: 25%;
+	float: left;
+	background: green;
+}
+.case_a{
+	width: 100%;
+	height: 250px;
+	background: red;
+}
+.case_b{
+	width: 100%;
+	height: 250px;
+	background: brown;
+}
+.milieu{
+	width: 50%;
+	float: left;
+	background: blue;
+	height: 500px;
+}
+.droite{
+	width: 25%;
+	float: left;
+	background: red;
+}
+.case_c{
+	width: 100%;
+	height: 250px;
+	background: green;
+}
+.case_d{
+	width: 100%;
+	height: 250px;
+	background: purple;
+}
+
+/* *******bas******** */
+footer{
+	height: 60px;
+	background: #e80b28;
+}
+.clear{
+	clear: both;
+}
+
+
+

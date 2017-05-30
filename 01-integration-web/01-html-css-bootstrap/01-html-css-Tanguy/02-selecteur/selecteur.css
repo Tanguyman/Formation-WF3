@@ -1,0 +1,71 @@
+@import url("selecteur2.css");
+p{
+	color: red;
+}
+
+header p:first-child{
+	color: green;
+}
+
+p:last-child{
+	color: blue;
+}
+
+p:nth-child(even){
+	color: yellow
+}
+
+p:nth-child(odd){
+	color: brown
+}
+
+p:nth-child(5), p:nth-child(6){
+	color: orange;
+}
+
+.zone_a{
+	color: red;
+}
+
+.zone_b{
+	color: #1FF111;
+}
+
+#zone_c{
+	color: #F11FFF;
+}
+
+/*
+#zone_d span{
+	color: #F11FFF;
+}
+*/
+div.zone_a{
+	font-size: 30px;
+}
+
+div .zone_a{
+	color: blue;
+}
+
+div:not(.zone_b){
+	font-size: 20px;
+}
+
+#zone_d:after{
+	content: "toto";
+}
+/* possibilité de mettre du contenu dans l'HTML via la feuille de style CSS
+Cela est généralement utilisé pour des codes d'icones*/
+
+p[title]{
+	color: pink;
+}
+
+p[title="c'est l'été"]{
+	color: green;
+}
+
+*{
+	font-size: 30px;
+}

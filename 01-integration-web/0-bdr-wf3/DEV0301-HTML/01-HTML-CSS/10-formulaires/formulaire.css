@@ -1,0 +1,8 @@
+label{
+	float: left;
+	width: 200px;
+	clear:both;
+}
+textarea{
+	resize: vertical; /* horizontal / none */ 
+}

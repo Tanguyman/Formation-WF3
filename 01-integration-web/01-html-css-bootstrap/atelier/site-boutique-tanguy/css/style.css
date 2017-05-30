@@ -1,0 +1,249 @@
+/* Nous cassons (reset) l'effet d'héritage pour toutes les balises suceptible d'être concernées */
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,b, u, i, center, dl, dt, dd, ol, ul, li,fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+}
+
+/* ******************* STRUCTURE ******************/
+body{
+	background-color: url('../img/fond.png') repeat-x;/*#DFDFDF*/
+	color: black;
+}
+
+.container{
+	width: 1000px;
+	margin: 10px auto;
+/*	height: 900px;*/
+	border: 1px solid black;
+	box-shadow: 1px 1px 6px;
+	background-color: white;
+
+}
+
+header{
+	height: 80px;
+}
+
+.logo, .ma-boutique{
+	float: left;
+	margin-top: 5px;
+}
+
+.logo{
+	margin-left: 5px;
+}
+.ma-boutique{
+	margin-left: 20px;
+}
+h1{
+	font-size: 40px;
+	font-style: italic;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: black;
+}
+.ma-boutique p{
+	font-size: 12.2px;
+	font-style: italic;
+	font-family: sans-serif;
+	color: #F234D1;
+	margin-left: 15px;
+	margin-top: 2.5px;
+}
+figcaption{
+	position: absolute;
+	font-size: 20px;
+	font-weight: bold;
+	top: 42px;
+	margin-left: 42px;
+	width: ;
+	color: #53D2F6;
+	text-align: ;
+	/*padding: 0px 0;*/
+}
+.header2{
+	float: left;
+	margin-top: 2px;
+	margin-left: 130px;
+}
+figure{
+	margin-left: 0px;
+}
+.bleu{
+	color: #53D2F6;
+	font-size: 25px;
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: lighter;
+}
+.gris{
+	color: #DFDFDF;
+	margin-top: -2.5px;
+	font-size: 12.2px;
+	font-style: italic;
+	font-family: sans-serif;
+	/*font-weight: lighter;*/
+}
+.mon-compte{
+	float: right;
+	width: 210px;
+	height: 75px;
+	text-align: center;
+	background: #53D2F6;
+}
+hr{
+	color: white;
+	/*text-decoration: none;*/
+}
+.mon-compte div img, .mon-compte div p{
+	float: left;
+}
+.mon-compte a,.mon-compte p{
+	font-size: 12.2px;
+	font-family: sans-serif;
+	margin-left: 5px;
+	margin-top: 8px;
+	text-decoration: none;
+	color: white;
+}
+.panier{
+	margin-top: -10px;
+}
+nav a{
+	/*color: white;*/
+	/*#F234D1*/
+	/*display: inline-block;*/
+	float: left;
+	text-decoration: none;
+	color: white;
+	background: #53D2F6;
+	padding: 0 10px;
+	height: 36px;
+	line-height: 36px;
+	width: 146.67px;
+	font-family: sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	transition: 0.5s;	
+}
+nav a:hover{
+	background: #F234D1;
+}
+.section-2-1, .section-2-2, .section-2-3{
+	float: left;
+}
+.section-2{
+	background-color: white;
+	height: 111px;
+	color: black;
+	font-family: sans-serif;
+}
+.section-2 h2{
+	color: #53D2F6;
+}
+.section-2 p, .section-2 img, .section-2 span{
+	font-size: 13px;
+	margin-top: 10px;
+}
+.section-2-1{
+	width: 195px;
+	border-right: 1px solid grey;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+}
+.section-2-1 img{
+	vertical-align: 0px;
+}
+.section-2-2{
+	width: 550px;
+	border-right: 1px solid grey;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+}
+.section-2-3{
+	/*width: 195px;*/
+	/*border-right: 1px solid grey;*/
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	margin-left: 20px;
+}
+.section-2-3 span{
+	vertical-align: 10px;
+	margin-left: 20px;
+}
+.bon-plan, .coup-coeur, .obj-plaisir{
+	float: left;
+	width: 305px;
+	height: 180px;
+	text-align: center;
+	-webkit-box-shadow: 3px 3px 14px 0px rgba(0,0,0,0.78);
+	-moz-box-shadow: 3px 3px 14px 0px rgba(0,0,0,0.78);
+	box-shadow: 3px 3px 14px 0px rgba(0,0,0,0.78);
+	border-radius: 20px 20px 20px 20px;
+	-moz-border-radius: 20px 20px 20px 20px;
+	-webkit-border-radius: 20px 20px 20px 20px;
+	border: 0px solid #000000;
+	margin-top: 20px;
+}
+.section-3{
+	background-color: white;
+	/*height: 300px;*/
+	/*width: 1000px;*/
+	color: black;
+	font-family: sans-serif;
+}
+.section-3 h2{
+	color: black;
+	background-color: #DFDFDF;
+	height: 30px;
+	line-height: 30px;
+	font-weight: bold;
+}
+.bon-plan{
+	margin-left: 10px;
+}
+.bon-plan img, .bon-plan p{
+	display: inline;
+	float: left;
+	margin-left: 12px;
+}
+.bon-plan p{
+	margin-left: 30px;
+	margin-top: 15px;
+}
+.bon-plan a{
+	float: right;
+	margin-right: 25px;
+	color: #53D2F6;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+td{
+	border: 1px solid;
+	/*border-collapse: collapse; enlève double ligne*/ 
+}
+
+footer{
+	background-color: #53D2F6;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+	font-size: ;
+	font-weight: ;
+}
+.clear{
+	clear: both;
+}
