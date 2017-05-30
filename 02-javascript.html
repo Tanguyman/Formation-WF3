@@ -472,7 +472,124 @@ Variable Globale vs Variable Locale (function{valable uniquement ici})
 
                     </p>
                 </p>
+            <h2>Chapitre 10</h2>
+                <p>
+                    <h3>VUE</h3>
+                    <p>
+                        Petite fonction de raccourci (lesflemards.js)<br>
+                        function w(t) {<br>
+                            document.write(t);<br>
+                        }<br>
+                        function l(e) {<br>
+                            console.log(e);<br>
+                        }<br>
+                        Math.round<br>
+                        for(let matiere in Etudiant.moyenne) {<br>
+                    </p>
+                    <h3>EXERCICES</h3>
+                    <p>
+                        I. Créer un Tableau 3D "PremierTrimestre" contenant la moyenne d'un étudiant pour plusieurs matières.<br>
+                        Nous auront donc pour un étudiant, sa moyenne à plusieurs matières.<br>
+                        Par exemple : Hugo LIEGEARD : [ Francais : 12, Math : 19, Physique 4], ... etc<br>
+                        **** Vous allez créez au minimum 5 étudiants ****<br>
+                        II. Afficher sur la page (à l'aide de document.write) pour chaque étudiant, la liste (ul et li) de sa moyenne à chaque matière, puis sa moyenne générale.<br>
+                    </p>
+                    <h3>QUESTIONS</h3>
+                    <p>
+                        PremierTrimestre.length pourquoi ça marche sans length ?<br>
+                        PremierTrimestre.length : eclaircir ?<br>
+                        uniquement pour les tableau ?<br>
+                        si oui, et pour les objets ?<br>
 
+
+                    </p>
+                </p>
+            <h2>Chapitre 11</h2>
+                <p>
+                    <h3>EXERCICES</h3>
+                    <p>
+                        CONSIGNE : A partir du tableau fourni, vous devez mettre en place un système d'authentification.<br>
+                        Après avoir demandé à votre utilisateur son EMAIL et MOT DE PASSE, 
+                        et après avoir vérifié ses informations, 
+                        vous lui souhaiterez la bienvenue avec son nom et prénom (document.write);<br>
+                        En cas d'échec, vous afficherez une ALERT pour l'informer de l'erreur.<br>
+                        var BaseDeDonnees = [<br>
+                            {'prenom':'Hugo','nom':'LIEGEARD','email':'wf3@hl-media.fr','mdp':'wf3'},<br>
+                            {'prenom':'Rodrigue','nom':'NOUEL','email':'rodrigue@hl-media.fr','mdp':'wf3'},<br>
+                            {'prenom':'Nathanael','nom':'DORDONNE','email':'nathanael.d@hl-media.fr','mdp':'wf3'}<br>
+                        ];<br>
+                    </p>
+                    <h3>QUESTIONS</h3>
+                    <p>
+
+                    </p>
+                </p>
+            <h2>Chapitre 12</h2>
+                <p>
+                    <h3>VUE</h3>
+                    <p>
+                        <h4>Le DOM</h4>
+                        <p>
+                            "document" : c'est le point d'entrée vers mon contenu HTML<br>
+                            body<br>
+                            <h5>Fonctions</h5>
+                            document.getElementById()<br>
+                            document.getElementsByClassName<br>
+                            => renvoie un TABLEAU<br>
+                            document.getElementsByTagName<br>
+                        </p>
+                    </p>
+                    <h3>EXEMPLES</h3>
+                    <p>
+                        var bonjour = document.getElementById("bonjour");<br>
+                        console.log(bonjour);<br>
+                        var contenu = document.getElementsByClassName("contenu");<br>
+                        console.log(contenu);<br>
+                        var span = document.getElementsByTagName("span");<br>
+                        console.log(span);<br>
+                    </p>
+                    <h3>EXERCICES</h3>
+                    <p>
+                        
+                    </p>
+                    <h3>QUESTIONS</h3>
+                    <p>
+
+                    </p>
+                </p>
+            <h2>Chapitre 13</h2>
+                <p>
+                    <h3>VUE</h3>
+                    <p>
+                        <h4>Manipuler les Contenus</h4>
+                        <p>
+                           var google = document.getElementById("google");<br>
+                           google.href);<br>
+                            google.id);<br>
+                            google.className);<br>
+                            google.textContent)<br>
+                            google.textContent = "Mon lien vers Google !";<br>
+                            google.appendChild(span);<br>
+                            ATTENTION: crée l'élément à l'intérieur !<br>
+                            => document.body.appendChild(h1);<br>
+                            a.style.color = "red";
+                            a.style.textDecoration = "none";<br>
+                        </p>
+                    </p>
+                    <h3>EXERCICES</h3>
+                    <p>
+                        En partant du travail déjà réalisé sur la page.<br>
+                        Créez directement dans la page une balise <\h1><\/h1> 
+                        ayant comme contenu : "Titre de mon Article".<br>
+                        Dans cette balise, vous créerez un lien vers une url de votre choix.<br>
+                        BONUS : Ce lien sera de couleur Rouge et non souligné.<br>
+                    </p>
+                    <h3>QUESTIONS</h3>
+                    <p>
+
+                    </p>
+                </p>
+            
         </div>
 
 
