@@ -1,0 +1,79 @@
+/*----------------------------*\
+            LAYOUT
+        positionnement
+\*----------------------------*/
+body{
+    margin-top: 50px;
+}
+
+/*----------------------------*\
+            NAV
+\*----------------------------*/
+.navbar-brand, h1, h2, h3, h4, h5, h6{
+    font-family: "Merienda", cursive;
+    color: #2F4073;
+}
+nav{
+    background-color: #061339;
+}
+.navbar-brand, h1, footer{
+    color: #FFF;
+}
+
+/*----------------------------*\
+            HEADER
+\*----------------------------*/
+h1{
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+}
+.background {
+    height          : 175px;
+    background-image: url("../img/background.jpg");
+    padding-top     : 50px;
+}
+
+/*----------------------------*\
+            SECTION 1
+        Carousel + Formulaire
+\*----------------------------*/
+.premier-bloc {
+    background-color: #f1f1f1;
+    padding         : 40px 0 50px 0;
+}
+    .premier-bloc h2{
+        font-size    : 20px;
+        margin: 10px 0 20px 0;
+    }
+    .mon-formulaire{
+        border  : 1px solid #ccc;
+        padding : 10px 10px 20px 10px;
+    }
+    textarea{
+        color : grey !important;
+    }
+    
+/*----------------------------*\
+            SECTION 2
+    Présentation chats + Logo
+\*----------------------------*/
+.deuxieme-bloc {
+    background-color: #dddddd;
+}
+/*3eme BLOC*/
+    .img-responsive {
+        background-color : #7885A5;
+        margin           : 0 auto;
+    }
+    .deuxieme-bloc:hover .img-responsive {
+        background-color :  #061339;
+    }
+
+/*----------------------------*\
+            FOOTER
+
+\*----------------------------*/
+footer {
+    background-color : #061339;
+    padding: 10px 10px;
+    font-size: 11px;
+}

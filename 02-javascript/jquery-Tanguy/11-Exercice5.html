@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>11-Exo5-T</title>
+        <link rel="stylesheet" href="assets/css/style.css"/>
+    </head>
+    <body>
+
+        <main>
+            <input type="text" placeholder="Saisissez un terme à surligner..." id="markjs">
+            <!--Visualiser la structure-->
+            <!--<section>
+                <header><h3>Titre</h3></header>
+                <article>
+                    Contenu
+                </article>
+            </section>-->
+
+        </main>
+
+                
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+        
+        <!--Integrer Mark.js (https://markjs.io/)-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.10.1/jquery.mark.min.js" integrity="sha256-AnEiXVqVzyM87NIAVSbUIRSpIzyPY9r0w51ZIL0RUNI=" crossorigin="anonymous">
+        
+        </script>
+        <script>
+        // CONSIGNE:
+        // 1- Définir structure HTML/CSs pour afficher articles
+        // 2- Afficher liste d'article à partir de l'API:$
+        //      https://jsonplaceholder.typicode.com/posts
+        // 3-Bonus : Afficher uniquemt les 10 premiers articles
+        // 4-Bonus : Mettre en place Markjs.io afin de surligner des mots dans les 
+        // différents articles à l'aide d'un champ input
+        $(function() {
+            // -- 2. avec getJSON et JSONP (Callback) http://ip-api.com/json/?callback=
+            $.getJSON('https://jsonplaceholder.typicode.com/posts', function(lesArticles) {
+                console.log(lesArticles);
+                // selectionner les 10 premiers
+                // var text = ""
+                // for (i = 0; i < 10; i++) {
+                    
+                //     text += "<section><header><h3>" + lesArticles[i].title + "</h3></header><article>" +  lesArticles[i].body+ "</article></section>";
+                // }
+                // $("main").html(text); // html vs text
+                
+                $.each(lesArticles, function(i, article){
+                    $("<section><header><h3>" + lesArticles[i].title + "</h3></header><article>" +  lesArticles[i].body+ "</article></section>").appendTo($('main'));
+
+                    //si i= 10
+                    if (i == 10) {
+                        return false;
+                    }
+                })
+                
+            });
+            
+        });    
+        console.log();
+        // -- Mark-JS
+        $('#markjs').on('input', function(e) {
+            let keyword = $(this).val();
+
+            $('section').unmark().mark(keyword);
+        });
+        
+        
+    //    $(function() {
+
+    //     var mark = function() {
+
+    //         // Read the keyword
+    //         var keyword = $("input[name='keyword']").val();
+
+    //         // Determine selected options
+    //         var options = {};
+    //         $("input[name='opt[]']").each(function() {
+    //         options[$(this).val()] = $(this).is(":checked");
+    //         });
+
+    //         // Remove previous marked elements and mark
+    //         // the new keyword inside the context
+    //         $(".context").unmark({
+    //         done: function() {
+    //             $(".context").mark(keyword, options);
+    //         }
+    //         });
+    //     };
+
+    //     $("input[name='keyword']").on("input", mark);
+    //     $("input[type='checkbox']").on("change", mark);
+
+    // });
+    //     $("h3").mark("facere", {
+    //         "element": "span",
+    //         "className": "highlight"
+    //     });
+        </script>
+        
+
+    </body>
+</html>

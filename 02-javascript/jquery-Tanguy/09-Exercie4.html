@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content=>
+    <title>Document</title>
+</head>
+<body>
+    <form action="connexion.php" id="MonFormulaire" method="post">
+            <input type="text" name="email" placeholder="Email"><br><br>
+            <input type="text" name="mdp" placeholder="Mot de Passe"><br><br>
+            <input type="submit" id="submit" value="Connexion">
+    </form>
+    
+</body>
+
+<!--Consigne : Avec l'aide de JQuery vous devez:
+
+1. A l'aide d'une API de Géolocalisation, 
+    vous affichez un paragraphe du formulaire
+    l'adresse ainsi que la ville et/ou le code postal de l'utilisateur connecté
+    
+    UTILISATION de JSONP : geoip.nekudo.com || ip-api.com
+
+    -->
+
+     <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+    
+    <script>
+    function foo(data) {
+        document.write("<p>Ville: " + data.city + "<br><br>Pays: " + data.country.name + "<br></p>");
+        //document.write("Latitude: ", data.location.latitude);
+        //document.write("Longitude: ", data.location.longitude);
+    }
+    </script>
+
+    
+    <script src="http://geoip.nekudo.com/api?callback=foo"></script>
+    
+    <!--  -->
+    <script src="assets/js/09.js"></script>
+</html>

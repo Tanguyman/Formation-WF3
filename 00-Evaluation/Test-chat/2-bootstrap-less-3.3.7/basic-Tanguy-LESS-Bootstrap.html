@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="fr">
+<!--
+    A FAIRE
+        <head>
+            - lang="en"
+            - meta name="description"                   //décrire la page 180 mots max et jamais vide
+            - meta name="author"                        //le client : ?
+            - meta name="keywords"                      //mot-clé1, mot-clé2,...
+            - link href="dist/css/bootstrap.min.css     // utiliser CDN ?
+            - link href="/docs/favicon.ico"             //logo du site
+            - link href="url"                           //police google + font awesome
+            - link href="/css.."                        //font awesome
+            - link href="/css/.."                       //choisir entre reset et normalise si pas de bootstrap; boostrap = normalize
+            - link href="docs/examples/starter-template/starter-template.css" // STYLE BOOTSTRAP
+            - link href="/assets/css/style.css"         //mon style
+            - script                                    //HTML5 et Respond.js à débloquer en prod
+        </head>
+-->
+    <head>
+        <!--Encodage des caractères de la page-->
+        <meta charset="utf-8">
+        <!--Pour IE, s'assurer qu'il utilise la dernière version de son moteur de rendu
+        à lire https://www.alsacreations.com/astuce/lire/1437-comment-interdire-le-mode-de-compatibilite-sur-ie.html-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Affichage du site sans zoom, initialisé à 100% -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <!-- Décrire la page Client en 180 mots (à vérifier)-->
+        <meta name="description" content="">
+        <!-- Nommer l'auteur, le client..-->
+        <meta name="author" content="">
+        <!--mots-clé : référencement Google-->
+        <meta name="keywords" content="">
+        
+        <!-- Logo site dans l'onglet du navigateur -->
+        <!-- <link rel="icon" href="docs/favicon.ico"> -->
+        <!-- Google Font -->
+        <link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
+        <!-- FontAwesome -->
+        <!--<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">-->
+
+        <!-- Bootstrap core CSS -->
+        <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Bootstrap CSS via CDN en prod
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <link href="docs/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <!--<link href="docs/examples/starter-template/starter-template.css" rel="stylesheet">-->
+        <!-- Mon style CSS -->
+        <link href="dist/css/style.css" rel="stylesheet">
+
+        <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+        <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+        <script src="docs/assets/js/ie-emulation-modes-warning.js"></script>
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <!-- Titre de l'onglet du navigateur (Hugo l'a mis à la fin du <head> -->
+        <title>Adopter un chat</title>
+    </head>
+
+    <body>
+    <!--"MENU"-->
+        <header class="container">
+            <div class="row">
+                <nav class="navbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Oh My Cats !</a></li>
+                    </ul>
+                </nav>
+            </div>        
+        </header> <!-- ./header.container -->
+    <!--TXT + JPG-->
+        <main>
+            <div class="container-full">
+                <div class="fondchat">
+                    <!--<div class="col-xs-offset-1 col-xs-10">-->
+                        <div class="text-center">
+                            <h1>Adoptez un chat trop bon !</h1>
+                        </div>
+                    <!--</div>-->
+                </div>
+     
+    <!--FORM + CAROUSEL -->
+        <!--FORM-->
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-2">
+                        <h2 class="text-center">Les chats à adopter</h2>
+                        <form action="#">
+                            <div class="form-group">
+                                <label for="sel1">Choix du chat :</label>
+                                <select class="form-control" id="sel1">
+                                    <option>Sushi</option>
+                                    <option>Maki</option>
+                                    <option>Sashimi</option>
+                                    <option>Yakitori</option>
+                                    <option>Onigri</option>
+                                </select>
+                                <br>
+                            </div>
+                            <div class="form-group">
+                                <label for="comment">Raison d'adoption :</label>
+                                <textarea class="form-control" rows="8" id="comment">Saisissez ici les raisons pour lesquelleq vous souhaitez adopter ce chat...</textarea>
+                            </div>
+                            <button type="submit" class="btn btn-default">Envoyer</button>
+                        </form>
+                    </div>
+        
+        <!--CAROUSEL-->
+                    <div class="col-sm-6">
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                                <li data-target="#myCarousel" data-slide-to="3"></li>
+                                <li data-target="#myCarousel" data-slide-to="4"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="dist/img/chat_1.jpg" alt="Los Angeles" style="width:100%;">
+                                    <div class="carousel-caption">
+                                        <p>Sushi</p>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <img src="dist/img/chat_2.jpg" alt="Chicago" style="width:100%;">
+                                    <div class="carousel-caption">
+                                        <p>Maki</p>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <img src="dist/img/chat_3.jpg" alt="New York" style="width:100%;">
+                                    <div class="carousel-caption">
+                                        <p>Sashimi</p>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <img src="dist/img/chat_4.jpg" alt="New York" style="width:100%;">
+                                    <div class="carousel-caption">
+                                        <p>Yakitori</p>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <img src="dist/img/chat_5.jpg" alt="New York" style="width:100%;">
+                                    <div class="carousel-caption">
+                                        <p>Onigri</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                                <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+
+    <!--TXT + PNG-->
+
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-6">    
+                        <h2>Nos chats à adopter...</h2>
+                        <p>
+                            Sed quid est quod in hac causa maxime homines admirentur et reprehendant meum consilium, cum ego idem antea multa decreverim,
+                            que magis ad hominis dignitatem quam ad rei publicae necessitatem pertinerent? Supplicationem quindecim dierum decrevi sententia
+                            mea. Rei publicae satis erat tot dierum quot C. Mario ; dis immortalibus non erat exigua eadem gratulatio quae ex maximis
+                            bellis. Ergo ille cumulus dierum hominis est dignitati tributus.
+                            <br>
+                            <br>
+                            Haec igitur prima lex amicitiae sanciatur, ut ab amicis
+                            honesta petamus, amicorum causa honesta faciamus, ne exspectemus quidem, dum rogemur; studium semper adsit, cunctatio absit;
+                            consilium vero dare audeamus libere. Plurimum in amicitia amicorum bene suadentium valeat auctoritas, eaque et adhibeatur
+                            ad monendum non modo aperte sed etiam acriter, si res postulabit, et adhibitae pareatur.
+                        </p>
+                    </div>
+                    <div class="col-sm-2">
+                        <img class="img-responsive" src="dist/img/tete-chat.png" alt="" width="" height="">
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+            </div>
+        </main>
+
+    <!--FOOTER-->
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <footer>
+                        <div class="text-right"><span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span> Oh My Cats</div>
+                    </footer>
+                </div>
+            </div>
+        </div><!-- /.container -->
+
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script>
+            window.jQuery || document.write('<script src="docs/assets/js/vendor/jquery.min.js"><\/script>')
+        </script>
+        <script src="docs/dist/js/bootstrap.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="docs/assets/js/ie10-viewport-bug-workaround.js"></script>
+    </body>
+
+</html>

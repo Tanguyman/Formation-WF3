@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <!-- Encodage des Caractères de la Page -->
+        <meta charset="UTF-8">
+
+        <!-- Affichage du site sans zoom, initialisé à 100% -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Pour IE, s'assurer qu'il utilise la dernière version de son moteur de rendu 
+        https://www.alsacreations.com/astuce/lire/1437-comment-interdire-le-mode-de-compatibilite-sur-ie.html -->
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+        <!-- Décrire la page Client en 180 mots (à vérifier)-->
+        <meta name="description" content="Sauvons des chats en les adoptant !! Tel est la mission de notre Association">
+        <!-- Nommer l'auteur, le client..-->
+        <meta name="author" content="OhMyCats">
+        <!--mots-clé : référencement Google-->
+        <meta name="keywords" content="chats, adoption">
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
+        <!-- Google Font -->
+        <link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
+        
+        <!-- Mon Style CSS -->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- html5Shiv.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
+
+        <!-- Respond.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js" integrity="sha256-g6iAfvZp+nDQ2TdTR/VVKJf3bGro4ub5fvWSWVRi2NE=" crossorigin="anonymous"></script>
+
+        <!-- Le Titre de la Page -->
+        <title>OhMyCats !</title>
+    </head>
+    <body>
+        <!-- Contenu HTML -->
+            
+            <!-- ======================
+                
+                    NAV OhMyCats !
+
+                ======================
+            Lorsque le site se développera nous pourrons créer un menu de navigation-->
+            
+            <nav class="navbar navbar-fixed-top">
+                <div class="container">
+                
+                <!-- En-Tete du Menu -->
+                    <div class="navbar-header">
+                        <!-- Gestion du Menu Burger : Version Mobile -->
+                        <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>-->
+                        
+                        <!-- Créer un logo "OhMyCats !"  -->
+                        <a class="navbar-brand" href="#">
+                            OhMyCats !
+                        </a>
+                        
+                    </div> <!-- /.navbar-header -->
+                    
+                    <!-- Le Menu -->
+                    <!--<div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">Mac</a></li>
+                            <li><a href="#">iPad</a></li>
+                            <li class="active"><a href="#">iPhone</a></li>
+                            <li><a href="#">Watch</a></li>
+                            <li><a href="#">TV</a></li>
+                            <li><a href="#">Music</a></li>
+                            <li><a href="#">Assistance</a></li>
+                            <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>-->            
+                </div><!-- container-->
+            </nav>
+
+            <!-- ===================================================
+                
+                    HEADER (En-tête) : Adoptez un chat trop bon !
+
+                 =================================================== -->
+            <header>
+                <div class="background">
+                    <h1 class="text-center">Adoptez un chat trop bon !</h1>
+                </div>
+            </header>
+            <main>
+
+            <!-- ===================================================
+                
+                    SECTION 1 (.premier-bloc) : Carousel et Formulaire
+
+                 =================================================== -->
+                <section class="premier-bloc">
+                    <div class="container">
+                        <div class="row">
+                                <div class="col-md-9 col-md-push-3">
+                                <!-- ================
+                                         Carousel
+                                    ================ -->
+                                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                        <!-- Indicators -->
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                                            <li data-target="#myCarousel" data-slide-to="4"></li>
+                                        </ol>
+
+                                        <!-- Wrapper for slides -->
+                                        <div class="carousel-inner">
+                                            <div class="item active">
+                                                <img src="assets/img/chat_1.jpg" alt="Sushi" style="width:100%;">
+                                                <div class="carousel-caption">
+                                                    <p>Sushi</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="item">
+                                                <img src="assets/img/chat_2.jpg" alt="Maki" style="width:100%;">
+                                                <div class="carousel-caption">
+                                                    <p>Maki</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="item">
+                                                <img src="assets/img/chat_3.jpg" alt="Sashimi" style="width:100%;">
+                                                <div class="carousel-caption">
+                                                    <p>Sashimi</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="item">
+                                                <img src="assets/img/chat_4.jpg" alt="Yakitori" style="width:100%;">
+                                                <div class="carousel-caption">
+                                                    <p>Yakitori</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="item">
+                                                <img src="assets/img/chat_5.jpg" alt="Onigri" style="width:100%;">
+                                                <div class="carousel-caption">
+                                                    <p>Onigri</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                            <!-- Left and right controls -->
+                                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                            <span class="glyphicon glyphicon-chevron-left"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                </div><!-- col-md-9 col-md-push-3 -->
+
+                                <!-- ================
+                                        Formulaire
+                                     ================ -->
+                                <div class="col-md-3 col-md-pull-9">
+                                    <h2 class="text-center">Les chats à adopter</h2>
+                                    <div class="mon-formulaire">
+                                        <form id="demandeAdoption" action="demandeAdoption.php">
+                                            <div class="form-group">
+                                                <label for="chatSelected">Choix du chat :</label>                                                
+                                                <select class="form-control" name="chatSelected" id="chatSelected">
+                                                    <option>-- Sélectionnez --</option>
+                                                    <option id="sushi">Sushi</option>
+                                                    <option>Maki</option>
+                                                    <option>Sashimi</option>
+                                                    <option>Yakitori</option>
+                                                    <option>Onigri</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="comment">Raison d'adoption :</label>
+                                                <textarea class="form-control" rows="10" name="comment" id="comment">Saisissez ici les raisons pour lesquelles vous souhaitez adopter ce chat...</textarea>
+                                            </div>
+                                            <button type="submit" class="btn btn-success btn-block">Envoyer</button>
+                                        </form>
+                                    </div>
+                                </div><!-- col-md-3 col-md-push-9 -->
+                        </div><!-- row -->
+                    </div><!-- container -->
+                </section>
+
+                <!-- ================================================================
+                    
+                        SECTION 2 (.deuxieme-bloc) : Nos chats à adopter... + Logo
+
+                     ================================================================ -->
+                <section class="deuxieme-bloc">
+                    <div class="container">
+                        <div class="row">
+
+                            <!-- =========================
+                                    Nos chats à adopter...
+                                 ========================= -->
+                            <div class="col-md-9">    
+                                <h2>Nos chats à adopter...</h2>
+                                <p>
+                                    Sed quid est quod in hac causa maxime homines admirentur et reprehendant meum consilium, cum ego idem antea multa decreverim,
+                                    que magis ad hominis dignitatem quam ad rei publicae necessitatem pertinerent? Supplicationem quindecim dierum decrevi sententia
+                                    mea. Rei publicae satis erat tot dierum quot C. Mario ; dis immortalibus non erat exigua eadem gratulatio quae ex maximis
+                                    bellis. Ergo ille cumulus dierum hominis est dignitati tributus.
+                                </p>
+                                <p>
+                                    Haec igitur prima lex amicitiae sanciatur, ut ab amicis
+                                    honesta petamus, amicorum causa honesta faciamus, ne exspectemus quidem, dum rogemur; studium semper adsit, cunctatio absit;
+                                    consilium vero dare audeamus libere. Plurimum in amicitia amicorum bene suadentium valeat auctoritas, eaque et adhibeatur
+                                    ad monendum non modo aperte sed etiam acriter, si res postulabit, et adhibitae pareatur.
+                                </p>
+                            </div><!-- col-lg-9 -->
+
+                            <!-- =========================
+                                        Logo chat
+                                 ========================= -->
+                            <div class="col-md-3">
+                                <img class="img-responsive" src="assets/img/tete-chat.png" alt="logo de l'association Oh My Cats !">
+                            </div>
+                        </div><!-- row -->
+                    </div><!-- container -->
+                </section>
+        </main>
+
+        <!-- ===================
+                
+                    FOOTER
+
+             =================== -->
+            <footer>
+                <!--Copyright OhMyCats-->
+                <div class="text-right"><span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span> Oh My Cats</div>
+            </footer>
+        <!-- jQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+        <!-- Bootstrap JS -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <!-- Mon Fichier JS -->
+        <script src="assets/js/formulaire.js"></script>
+        
+    </body>
+</html>

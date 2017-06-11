@@ -1,0 +1,81 @@
+/* -------------------------
+        TEST PERSO
+---------------------------- */
+/*
+body{
+
+}
+.container{
+    border: 1px solid black;
+}
+.row{
+    border: 1px solid red;
+}
+*/
+
+/* -------------------------
+TECHNIQUES DES DEV ET LES PROBLEMES ASSOCIES
+https://www.youtube.com/watch?v=t8Up7GiNIoU
+---------------------------- */
+/*
+- systeme de profondeur
+- tous les h2 du site 
+- class
+TROP DE PROFONDEUR
+    par ex pour les "articles", "post" ou "autres"...
+        => mieux vaut une class avec  un "-". 
+        Exemple: article, article-title, article-thumb(img), article-body... 
+TROP DE REPETITION (de css identique: border, margin...)
+    => L'OOCSS ajouter des class secondaire (Bootstrap utilise cette technique)
+    exemple:
+    1) class="btn btn-alert"
+    2) widget widget-categories, widget widget-articles
+
+Methode SMACSS : organiser les regles CSS par catégories
+1. Base (p, body, h1, h2, reset, normalise...) = générique 
+2. Layout => en general info sur le block = positionnement, taille, grille, contenu principal pas trop de style.
+    (.l-header, .l-side-bar, .l-footer, .l-main...) (convention: .l = layout)
+3. Module => pour styliser les éléments
+    (.widget, .list, .btn, .bloc, .title, .form, .icon, .table, .video... carousel, liste, categorie)
+    plus les enfants btn btn-alert
+4. Etat/ State (Javascript: hidden, visible, active..)
+    convention (is): is-hidden..
+5. Theme "alternatif": .dark, .light... (rare)
+
+UTILISER LES PRE-PROCESSEUR: Less, SASS, Compas
++ cf jonathanpath sur Github (SASS-SMACSS)
+
+2EME PARTIES
+mono-ligne vs multi-ligne
+class ou id{
+    boite
+    bordure
+    background
+    text
+    transformation
+}
+réservé les id au JS
+
+/*----------------------------*\
+            RESUME: 21mn25
+\*----------------------------*/
+/*----------------------------*\
+            BASE
+\*----------------------------*/
+/*----------------------------*\
+            LAYOUT
+\*----------------------------*/
+/*----------------------------*\
+            MODULE
+\*----------------------------*/
+/*----------------------------*\
+            
+\*----------------------------*/
+/*
+btn {}
+    btn-alert{}
+    btn-alert.is-active{}
+ou
+header{}
+    header-btn{}
+*/

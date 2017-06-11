@@ -1,0 +1,119 @@
+ANGULAR = ng
+MERCREDI 7 JUIN
+requête AJAX html = Curl PHP
+
+Pour créer un nouveau Projet
+	ng new Project-Name
+	cd Project-Name
+	ng serve
+Pour Ouvrir le projet :
+	(ng serve) dans le dossier où a été installer le projet avec ng new(->cd project-name->ng serve)
+Pour Fermer le projet :
+	fermer le terminal
+Pour Installer Angular:
+	1 Node.js (https://nodejs.org/en/)
+	pkg à récupérer sur le site. C’est un serveur et cela permet d’installer NPM
+	2 NPM (https://docs.npmjs.com/getting-started/installing-node)
+	via le terminal
+Pour créer un composant:
+	ng g component
+
+————————————————————————
+
+DOCUMENTATION
+https://github.com/angular/angular-cli
+
+TERMINAL
+npm install
+Yosemite-Tanguy:~ yosemite_tanguy$ npm install npm@latest -g
+/usr/local/bin/npm -> /usr/local/lib/node_modules/npm/bin/npm-cli.js
+
+make sure it's the latest version.
+npm install npm@latest -g
+The current stable version of npm is 5.0.3
+To upgrade, run: [sudo] npm install npm@latest -g
+
+sudo npm install -g @angular/cli
+ng -v (doit afficher Angular Cli)
+
+? npm list -g --depth=0 ?
+————————————————————————
+Node.js was installed at
+
+   /usr/local/bin/node
+
+npm was installed at
+
+   /usr/local/bin/npm
+
+Make sure that /usr/local/bin is in your $PATH.
+
+————————————————————
+Node.js was installed at
+
+   /usr/local/bin/node
+
+npm was installed at
+
+   /usr/local/bin/npm
+
+Make sure that /usr/local/bin is in your $PATH.
+——————————————————————————
+
+
+COURS ANGULAR
+
+SPA : Single Page App
+
+MVC : (Model = BDD; Vue = HTML; Contrôler = PHP/ JS)
+
+MVVM : (Model Vue Vue Model (MVC en background)
+
+NODE JS = serveur
+(=> gestion de librairie (paquets) d’où l’utilisation de NPM (Node Packet Manager)
+php envoie les fichiers un par un, tandis que node.js envoie plusieurs fichiers en mm temps (++ utilise moteur V8 de Google)
+
+app.component.html et app.component.ts interagissent
+
+BINDING (detection automatique = event-lstener)
+	EVENT: ( click ) 		——->   fn() = executer code
+	PROPERTY: [ propriété ] <——-  fn() = executer code
+	[ ( ) ]
+____________________________________
+CLI = Command Line Interface
+ls
+cd
+clear
+mkdir
+rmdir (dossier vide); rm -r (dossier plein) REMOVE
+touch créer un fichier
+pwd adresse
+ctrl flèche = naviguer dans le 
+————————————————————————————
+————————————————————————————
+————————————————————————————
+Jeudi 8 Juin
+
+validation de formulaire codepen (favori chrome/angular)
+Pristine, Dirty, Touch
+
+————————————————————————————
+IONIC
+(https://ionicframework.com/getting-started/)
+Cordova pour accéder au data du tel (contact, photo..)
+
+1Install Ionic
+	npm install -g cordova ionic
+2 Start an App
+	ionic start Mon-App-Ionic
+3 Run your App
+	cd myApp
+	ionic serve // ajouter (-l) pour voir les 3 modèles de tel
+4 J’ai du mettre à jour sass (npm install node-sass)
+5 ouvrir le navigateur à l’adresse communiqué par ionic (http://localhost:8100/)
+6 se rendre avecVirtual Code dans MonAppViergeIonic/src/pages/home/home.html
+
+Se créer un compte IONIC
+tanguyparis
+Lonlc_T@ng
+
