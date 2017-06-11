@@ -36,9 +36,9 @@ DOCUMENT
 LES ECOUTEURS D'EVENEMENT
 ==========================
 Pour attacher un évènement à un élément, ou autrement dit,
-pour déclarer un écouteur d'évèment qui se chatrgera de lancer
+pour déclarer un écouteur d'évèment qui se chargera de lancer
 une action, cad une fction pr un evenement donné,
-je vais utilisé la syntase suivante
+je vais utilisé la syntaxe suivante
 */
 var p = document.getElementById("MonParagraphe");
 console.log(p);
@@ -52,6 +52,12 @@ function changeColorToRed() {
 // -- 2 : Je déclare un écouteur qui se chargera d'appeler la fction
 // au déclenchemt de l'évènemt.
 p.addEventListener("click", changeColorToRed);
+
+// var p = document.getElementById("MonParagraphe");
+// console.log(p);
+// p.addEventListener("click", changeColorToRed() {
+//     p.style.color = "red";
+// });
 
 /*==========================
 ==========================
